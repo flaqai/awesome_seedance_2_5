@@ -1,6 +1,6 @@
 # Seedance 2.5 Multilingual Prompt Pack
 
-[中文指南](../README.md) · [60 场景索引](README.md) · [12 种语言 Prompts](i18n/README.md) · [Try Seedance 2.5 Online](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[English Guide](../README.md) · [中文指南](../README_ZH.md) · [60 场景索引](README.md) · [12 种语言 Prompts](i18n/README.md) · [Try Seedance 2.5 Online](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 同一个图生视频任务分别使用八种语言表达，便于跨国团队、本地化测试和对白创作。所有版本都要求：以输入图为唯一视觉锚点，生成稳定的一镜到底咖啡馆场景，避免身份漂移、额外人物、伪文字和水印。
 

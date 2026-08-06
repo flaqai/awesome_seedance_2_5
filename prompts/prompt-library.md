@@ -1,6 +1,6 @@
 # Seedance 2.5 原创提示词库：24 个可复制的实用场景
 
-[返回主指南](../README.md) · [60 场景总索引](README.md) · [在线使用 Seedance 2.5](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/) · [多语言 prompts](i18n/README.md)
+[English Guide](../README.md) · [中文指南](../README_ZH.md) · [60 场景总索引](README.md) · [在线使用 Seedance 2.5](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/) · [多语言 prompts](i18n/README.md)
 
 本页收录 24 个为 Seedance 2.5 重新设计的文生视频与图生视频提示词。每个场景都强调可执行的时间轴、摄影路径、主体一致性、真实物理、音画同步和最终落点。请把方括号内内容替换为你的实际素材；具体时长、画幅、声音和编辑能力以使用页面实时参数为准。
 

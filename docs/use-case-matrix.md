@@ -1,6 +1,6 @@
 # Seedance 2.5 使用场景选择矩阵
 
-[返回主指南](../README.md) · [60 个提示词索引](../prompts/README.md) · [多语言 prompts](../prompts/i18n/README.md) · [在线使用](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[English Guide](../README.md) · [中文指南](../README_ZH.md) · [60 个提示词索引](../prompts/README.md) · [多语言 prompts](../prompts/i18n/README.md) · [在线使用](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 不知道应该从哪个提示词开始时，先按目标选择场景，再根据输入素材、画幅、时长和验收重点筛选。具体参数以平台实时页面为准。
 

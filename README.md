@@ -1,289 +1,115 @@
-# Awesome Seedance 2.5 Prompts：实用视频提示词与导演级工作流
+# Awesome Seedance 2.5 Prompts: Practical Image-to-Video Prompt Guide
 
 [![Seedance 2.5](https://img.shields.io/badge/Seedance-2.5-6C5CE7)](https://seed.bytedance.com/en/seedance2_5)
 [![Image to Video](https://img.shields.io/badge/Image--to--Video-Prompt%20Library-FF7A59)](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-[简体中文](README.md) · [English](README_EN.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [12 种语言 Prompts](prompts/i18n/README.md)
+[English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [Prompts in 12 languages](prompts/i18n/README.md)
 
-![Seedance 2.5 提示词指南原创封面](assets/seedance-2-5-prompt-guide-hero.png)
+![Original Seedance 2.5 prompt guide hero](assets/seedance-2-5-prompt-guide-hero.png)
 
-这是一个面向 **Seedance 2.5 文生视频、图生视频、参考生视频与视频编辑** 的原创提示词库，现已收录 **60 个完整实用场景、12 种语言支持和 11 份独立外语 prompts 文件**。内容覆盖电影叙事、品牌广告、电商、UGC、动画、旅行、美食、运动、ASMR、时尚、美妆、教育、房地产、交通、自然、工业、绿幕与白模预演，并针对 Seedance 2.5 的 30 秒叙事、参考控制、镜头调度和音画联合生成能力进行细化。
+An original, production-oriented library of **60 Seedance 2.5 prompts in 12 languages** for image-to-video, text-to-video, reference-to-video, synchronized audio, camera movement, green-screen footage, white-model previs, advertising, ecommerce, UGC, education, real estate, mobility, nature, animation, sports, travel, and cinematic storytelling.
 
-> **在线使用 Seedance 2.5：** [在 Flaq AI 打开 Seedance 2.5 Image-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+> **Use Seedance 2.5 online:** [Open the Seedance 2.5 Image-to-Video page on Flaq AI](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 >
-> 页面参数和开放状态可能随上线节奏变化；时长、分辨率、声音及参考素材数量请以使用页面当时显示为准。
+> Availability and parameters may change during rollout. Check the live page for current duration, resolution, sound, and input options.
 
-## 目录
+## What makes a strong Seedance 2.5 prompt?
 
-- [Seedance 2.5 适合做什么](#seedance-25-适合做什么)
-- [Seedance 2.5 提示词公式](#seedance-25-提示词公式)
-- [快速开始](#快速开始)
-- [精选原创提示词](#精选原创提示词)
-- [完整场景库](#完整场景库)
-- [图生视频技巧](#图生视频技巧)
-- [多语言提示词](#多语言提示词)
-- [常见问题](#常见问题)
-- [内容与版权说明](#内容与版权说明)
-
-## Seedance 2.5 适合做什么
-
-根据 Seedance 2.5 官方页面，模型重点面向最长 30 秒的完整叙事，并可继续延长两次；它强化了参考视频理解、音视频编辑、专业运镜、表演调度、白模控制和绿幕编辑。相较于只描述“画面长什么样”，Seedance 2.5 更适合接收一份简洁但完整的导演指令。
-
-| 能力 | 提示词中应该写什么 | 典型用途 |
-|---|---|---|
-| 30 秒叙事 | 按时间段写目标、转折和结尾 | 广告、剧情短片、MV、旅行故事 |
-| 图生视频 | 明确保留项、主体动作、环境动作、运镜 | 产品图、人物照、插画、建筑图 |
-| 参考控制 | 给每个素材指定唯一职责 | 角色一致性、镜头参考、动作参考、声音参考 |
-| 专业运镜 | 写机位、焦段感、路径、速度和停止点 | 一镜到底、环绕、推拉、跟拍、航拍 |
-| 表演调度 | 写站位、视线、动作触发和互动顺序 | 多人戏、运动、舞蹈、采访 |
-| 音画联合 | 分开写对白、环境声、拟音和音乐 | ASMR、广告、剧情、现场感视频 |
-| 精准编辑 | 写“只修改什么”和“必须保持什么” | 换背景、换材质、改动作、局部修复 |
-| 白模与绿幕 | 写空间路径、遮挡关系、抠像边缘要求 | 预演、VFX、虚拟制片、角色合成 |
-
-### 写提示词时最重要的 5 件事
-
-1. **先锁定不变量。** 图生视频先写主体身份、产品几何、服装、构图和光线哪些不能改变。
-2. **每个时间段只放一个主要事件。** 30 秒不等于塞满 30 个动作；让动作之间存在因果关系。
-3. **把运镜写成路径。** “电影感”很模糊，“镜头从水面贴近跟拍，5 秒后升至人物肩部并停住”更可执行。
-4. **区分主体、环境和镜头的运动。** 三者混写容易产生漂移或无意义的抖动。
-5. **声音要有层级。** 明确对白优先级、环境声位置、拟音触发点，以及是否需要音乐。
-
-## Seedance 2.5 提示词公式
-
-推荐按下面顺序组织，中文、英文、日文或西班牙文都可以使用相同结构：
+The official Seedance 2.5 page highlights video generation up to 30 seconds in one pass, two extensions, more precise interpretation of reference videos, broader audio-visual editing, professional camera movement, performance blocking, white-model control, and green-screen editing. A useful prompt should therefore read like a compact directing brief, not a pile of style adjectives.
 
 ```text
-[任务] 文生视频 / 图生视频 / 参考生视频 / 视频编辑
-[目标] 视频用途、受众、核心情绪、时长、画幅
-[输入职责] 图1锁定角色；图2锁定场景；视频1只参考运镜；音频1只参考节奏
-[视觉锚点] 主体身份、服装、产品结构、场景、时间、色彩、材质
-[时间轴]
-00:00-00:06 建立场景与人物目标
-00:06-00:14 主要动作与镜头推进
-00:14-00:23 转折、互动或产品卖点
-00:23-00:30 结果、情绪落点与结束画面
-[摄影] 景别、机位、运动路径、速度、焦点变化、快门感
-[表演与物理] 视线、手部动作、重量、惯性、碰撞、布料、水、烟雾
-[声音] 对白、环境声、拟音、音乐、声场和同步点
-[一致性] 必须保持不变的身份、几何、数量、方向、光源和空间关系
-[避免] 形变、重复主体、额外肢体、伪文字、品牌、水印、无动机剪辑
+[Mode] Text-to-video / Image-to-video / Reference-to-video / Edit
+[Goal] Use, audience, emotion, duration, aspect ratio
+[Reference roles] Image 1 locks identity; Video 1 provides camera path only
+[Visual anchors] Subject, wardrobe, product geometry, set, time, palette
+[Timeline] Establishment -> action -> turn -> final frame
+[Camera] Shot size, height, path, speed, focus, stopping point
+[Performance and physics] Gaze, hands, weight, inertia, contact, cloth, water
+[Audio] Dialogue, ambience, foley, music, synchronization cues
+[Continuity] What must never change
+[Avoid] Morphing, duplicates, extra limbs, fake text, logos, watermarks
 ```
 
-### 适合图生视频的精简公式
+## Three copy-ready examples
+
+### Cinematic storm rescue training
 
 ```text
-以输入图为唯一视觉锚点。保持主体身份、脸部、服装、产品结构、构图和主光方向不变。
-主体运动：……
-环境运动：……
-镜头运动：……
-结束状态：……
-物理要求：运动有重量和惯性，遮挡关系正确，阴影与反射同步变化。
-禁止：新增主体、改变设计、镜头无故抖动、局部融化、文字或水印。
+Use the input image as the first frame and only visual anchor. Preserve the identities and orange rain gear of the two adult volunteers, the rescue boat geometry, the number of people, the lighthouse position, and the cold storm lighting.
+
+00:00-00:07: Track steadily from water level behind the boat. The hull rises and falls with real weight; spray briefly crosses the lens guard; the lighthouse beam sweeps through rain.
+00:07-00:15: Slide forward along the side to the volunteers' shoulders. The front volunteer points toward the safe channel while the rear volunteer adjusts the throttle.
+00:15-00:23: A side wave pushes the boat left. Both lower their center of gravity and correct course. Raise the camera slightly to reveal the passage through the rocks; water inertia and body balance must be physically plausible.
+00:23-00:30: Enter calmer harbor water. Push past the volunteers toward the lighthouse and stop on a wide, hopeful final frame.
+
+Audio: stereo rain, waves, engine, two short safety calls, and a very soft low string tone at the end. No casualties, added people, altered boat parts, teleporting camera, text, logos, or watermark.
 ```
 
-## 快速开始
-
-1. 准备一张干净、主体轮廓清晰、光源明确的起始图。
-2. 从下方场景或[60 个提示词总索引](prompts/README.md)复制最接近的模板。
-3. 先替换主体、动作、场景、画幅与结尾，不要一次重写所有摄影术语。
-4. 在 [Seedance 2.5 在线页面](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)上传图片并粘贴提示词。
-5. 首轮先验证身份、动作和空间逻辑，再追加复杂运镜、对白或特效。
-
-## 精选原创提示词
-
-以下示例均为本仓库重新构思的原创场景，不包含影视 IP、名人形象或第三方品牌。
-
-### 1. 暴雨海岸救援演练｜电影长镜头
-
-![暴雨海岸救援演练原创起始图](assets/cinematic-rescue-reference.png)
-
-**模式：** 图生视频 · **建议画幅：** 16:9 · **建议时长：** 24–30 秒
+### Premium unbranded sparkling-tea ad
 
 ```text
-以输入图为第一帧和视觉锚点，保持两名成年救援志愿者的服装、救生艇结构、人数、灯塔位置和冷蓝色暴雨光线不变。创作一段写实的海上救援训练长镜头，紧张但不呈现伤亡。
+Use the bottle in the input image as the only product anchor. Preserve its silhouette, cap, blank-label proportions, amber liquid level, and lighting. Generate no text.
 
-00:00-00:06：镜头贴近水面，在艇尾左侧稳定跟拍。救生艇迎着浪头前进，船体随浪有重量地起伏，近处水花短暂溅到镜头保护罩；灯塔光束从右向左扫过。
-00:06-00:14：镜头沿艇侧平滑前移到两人肩后。前方志愿者用手势指向安全航道，后方志愿者调整油门，两人的动作克制、专业，湿衣料贴合身体并随风轻颤。
-00:14-00:23：一股更大的侧浪推动船身向左偏转。两人同步压低重心，船首校正方向，镜头轻微升高展示礁石之间的通道；水的惯性、船体倾斜和人物平衡符合真实物理。
-00:23-00:30：救生艇穿过狭窄水道进入相对平稳的港湾。镜头越过两人缓慢推向灯塔，暖光照亮雨幕，情绪从紧张转为安心，最后稳定停在船首与灯塔同框的广角画面。
+00:00-00:05: Macro focus on condensation, then rack focus to fine bubbles rising in the liquid.
+00:05-00:11: Orbit clockwise by about 35 degrees while slowly pulling back. The ice pedestal refracts accurately; two tea leaves travel in the opposite direction for layered motion. The bottle remains stable.
+00:11-00:17: A warm backlight passes behind the bottle. The cap lifts only slightly with a clean click and releases a natural mist, not an explosion.
+00:17-00:24: Lower to a subtle hero angle. Droplets fall naturally, then stop on a clean front view with negative space above for post-production copy.
 
-声音：双声道海浪、雨点击打防水布、发动机低频、短促清晰的手势口令；不使用史诗音乐，结尾加入很轻的低音弦乐持续音。全程无对白字幕、无标志、无水印、无额外人员、无灾难伤者、无镜头瞬移。
+Audio: cap click, fine carbonation, light ice sound, minimal fresh rhythm. No fake text, extra bottles, label drift, melting glass, trademarks, or watermark.
 ```
 
-### 2. 气泡茶新品揭晓｜高级产品广告
-
-![气泡茶产品广告原创起始图](assets/product-sparkling-tea-reference.png)
-
-**模式：** 图生视频 · **建议画幅：** 9:16 / 16:9 · **建议时长：** 15–24 秒
+### Paper fox leaves a sketchbook
 
 ```text
-以输入图中的无品牌玻璃瓶为唯一产品锚点。瓶身形状、瓶盖、空白标签比例、琥珀色液体容量和主光方向始终不变，不生成文字。
+Use the input image as the art and character anchor. Preserve the red paper fox's triangular ears, pointed nose, folds, pencil texture, and proportions; preserve the café table, sketchbook, lamp, rainy window, and cup layout.
 
-00:00-00:04：极近景拍摄瓶壁凝露，一颗水珠缓慢滑落；焦点从水珠转移到液体中上升的细密气泡。背景叶片只做轻微摆动。
-00:04-00:10：镜头以产品为中心顺时针环绕约 35 度，同时缓慢拉远。冰台内部出现柔和折射，几片茶叶沿相反方向划出克制的弧线，瓶子保持完全稳定。
-00:10-00:17：一道暖光从瓶后扫过，液体被照亮。瓶盖轻响后仅向上弹起少量距离，细雾和少量气泡自然释放，不发生爆炸，不改变瓶口结构。
-00:17-00:24：镜头降到略低机位并停止环绕，水滴在产品周围短暂悬停后自然落下。最终定格为干净的正面英雄镜头，为后期标题预留上方空间。
+00:00-00:07: Pencil lines tremble slightly. The fox blinks and raises one front paw as the camera makes a macro push-in.
+00:07-00:14: The fox steps over the page edge, transitioning naturally from flat graphite lines to dimensional folded paper with correct contact shadows.
+00:14-00:21: Track parallel as it walks around pencil shavings and studies the steam above the cup.
+00:21-00:27: Steam forms a brief path toward the rainy window. The fox trots after it while tiny tabletop droplets react to its steps.
+00:27-00:30: It stops at the window with a consistent reflection. Raise the camera and finish on an open-ended sense of departure.
 
-声音：清脆但真实的瓶盖声、细小气泡声、冰块轻响、短促清新的音乐节拍；所有声音与动作精确同步。避免伪文字、额外瓶子、标签漂移、玻璃融化、液体穿模、过量飞溅、品牌或水印。
+Audio: rain, paper folds, wood contact, and minimal glockenspiel. No extra animals, redesign, franchise resemblance, text, logos, or watermark.
 ```
 
-### 3. 纸狐狸走出速写本｜混合媒介动画
+## Full prompt library
 
-![纸狐狸混合媒介动画原创起始图](assets/paper-fox-story-reference.png)
+Open the [60-scene master index](prompts/README.md), the [24-scene foundation library](prompts/prompt-library.md), or the [36-scene extended library](prompts/extended-scenarios.md). Together they cover:
 
-**模式：** 图生视频 · **建议画幅：** 16:9 · **建议时长：** 30 秒
+- cinematic drama and science fiction;
+- product, skincare, beverage, and wearable ads;
+- vertical UGC, travel diaries, and food reviews;
+- paper craft, clay animation, and living murals;
+- climbing, tennis, and street dance;
+- jazz, bakery ASMR, and radio drama;
+- portrait micro-expressions, architectural parallax, and start/end frames;
+- green screen, white-model previs, reference camera paths, and precise editing.
 
-```text
-以输入图为美术和角色锚点。保持红色折纸狐狸的三角耳、尖鼻、纸张折痕、铅笔线纹理和体型比例一致；保持咖啡馆桌面、速写本、台灯、雨窗和陶杯的空间关系不变。
+### Complete prompt files in more languages
 
-00:00-00:06：铅笔线在纸面上轻微颤动，折纸狐狸先眨眼，再试探性抬起前爪。镜头从速写本左下角微距推近，纸张摩擦声清晰。
-00:06-00:13：狐狸跨过纸页边缘踏上真实木桌，身体从二维纸线自然过渡为有厚度的折纸结构。它每走一步都产生轻微折纸声，桌面倒影和接触阴影准确。
-00:13-00:21：镜头平行跟随。狐狸绕过铅笔屑，停在咖啡杯前观察蒸汽；蒸汽凝成一条短暂的小路指向雨窗，狐狸的耳朵因好奇转动。
-00:21-00:27：狐狸沿蒸汽小路小跑，桌面水滴被脚步带起极小的涟漪。镜头从侧面跟拍转为狐狸身后的低机位，窗外暖色灯光逐渐清晰。
-00:27-00:30：狐狸在窗前停下，尾巴轻摆，倒影中仍保持同一角色轮廓。镜头缓慢上升，雨滴沿窗滑下，画面以温暖而开放的旅程起点结束。
+- [English](prompts/i18n/prompt-library.en.md), [Traditional Chinese](prompts/i18n/prompt-library.zh-TW.md), [Japanese](prompts/i18n/prompt-library.ja.md), and [Korean](prompts/i18n/prompt-library.ko.md);
+- [Spanish](prompts/i18n/prompt-library.es.md), [French](prompts/i18n/prompt-library.fr.md), [German](prompts/i18n/prompt-library.de.md), and [Brazilian Portuguese](prompts/i18n/prompt-library.pt-BR.md);
+- [Arabic](prompts/i18n/prompt-library.ar.md), [Russian](prompts/i18n/prompt-library.ru.md), and [Bahasa Indonesia](prompts/i18n/prompt-library.id.md).
 
-声音：雨声、纸张折叠声、木桌轻触声、杯中细微气泡和极简钢片琴；无对白。禁止新增动物、改变角色颜色、塑料质感、卡通品牌风格、文字、标志或水印。
-```
+Each language file contains six complete, copy-ready recipes rather than translated titles alone. See the [localization rules and language matrix](prompts/i18n/README.md).
 
-### 4. 清晨面包坊｜治愈系 ASMR 广告
+## Image-to-video checklist
 
-```text
-30 秒、16:9、写实手工面包坊短片。人物是一位原创成年烘焙师，米色围裙、深灰衬衫、头发整齐束起；身份、服装和工作台布局全程一致。
+- Lock identity, wardrobe, product shape, object count, composition, and key-light direction.
+- Separate subject motion, environmental motion, and camera motion.
+- Give each reference file one job; never say “use everything from all references.”
+- Describe the camera's start, path, speed, and final stopping point.
+- Reserve the final 4–6 seconds for deceleration and a deliberate end frame.
+- Add dialogue, ambience, foley, and music as separate audio layers.
+- Use original or properly licensed people, music, products, and visual assets.
 
-00:00-00:07：清晨逆光穿过窗户，微距拍摄双手将发酵面团放到撒有面粉的木台，手掌轻压，面团缓慢回弹。
-00:07-00:14：俯拍镜头平滑滑过工作台，烘焙师用割包刀划出三道均匀纹路，面粉颗粒在侧光中短暂扬起。
-00:14-00:22：匹配剪辑到烤炉内，面包表皮在热气中逐渐膨胀并呈金褐色；只展示真实烘焙变化，不做夸张延时变形。
-00:22-00:30：面包放到冷却架，镜头缓慢推近，烘焙师掰开一小块展示松软组织，蒸汽自然升起，最后停在面包与晨光的静物画面。
+## Sources and usage
 
-声音只保留面团落台、刀片划过表皮、炉门轻响、脆壳裂开和远处城市晨声；无旁白、无音乐、无文字、无品牌、无多余手指、无食品穿模。
-```
+- [Official Seedance 2.5 capability page](https://seed.bytedance.com/en/seedance2_5)
+- [Seedance 2.5 Image-to-Video online page](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+- [Official Seedance 2.0 launch notes](https://seed.bytedance.com/en/blog/seedance-2-0-official-launch)
 
-### 5. 屋顶爵士现场｜音乐表演与连续调度
+All prompts, scenarios, explanatory copy, and images in this repository were newly created for this collection. The examples avoid celebrity likenesses, third-party brand slogans, and protected fictional characters. Review generated output for copyright, likeness, trademark, audio, safety, and platform-policy compliance before commercial use.
 
-```text
-创作一段 30 秒原创屋顶爵士三重奏现场，傍晚蓝调时刻，城市天际线虚化。三位成年乐手分别演奏立式贝斯、爵士鼓和小号，服装为无标志的深色现代正装，人物数量和乐器位置始终固定。
-
-00:00-00:08：从贝斯琴弦微距开始，手指拨弦与低音完全同步；镜头沿琴身上升，揭示三人站位。
-00:08-00:16：镜头向鼓手弧形移动，鼓刷在军鼓上画圈，小号手在背景吸气准备；焦点从鼓刷平滑转到小号手眼神。
-00:16-00:24：小号进入主旋律，镜头从三人之间穿过并做半圈环绕，衣摆受屋顶微风影响，乐器反光随相机位置真实变化。
-00:24-00:30：三人以短促齐奏收尾，镜头缓慢拉到广角，远处城市灯光依次亮起，最后一个小号尾音在空气中自然衰减。
-
-声音必须是同一速度的原创爵士乐段，贝斯、鼓刷、小号的演奏动作与音符同步；保留屋顶风声和远处交通底噪。无观众尖叫、无伪装演奏、无乐器变形、无文字或水印。
-```
-
-### 6. 城市通勤背包｜UGC 产品测评
-
-```text
-9:16 竖屏、24 秒、自然手机自拍视频质感。一位原创成年城市通勤者在公寓门口快速展示无品牌深绿色背包，语气真实、友好，不像棚拍广告。保持人物脸部、服装、背包口袋数量与颜色不变。
-
-00:00-00:05：手持中近景，人物看镜头说：“这是我最近每天都在背的通勤包。”自然停顿，轻微但可控的手机手持感。
-00:05-00:12：镜头切到第一视角，依次放入 13 英寸笔记本、水瓶和折叠伞；每件物品只出现一次，拉链和口袋空间合理。
-00:12-00:18：人物背上背包走出门，镜子里短暂出现侧面轮廓，背包肩带自然受力，不漂移不变形。
-00:18-00:24：电梯内回到自拍构图，人物轻拍肩带说：“装得下，但不会显得很笨重。”电梯门打开，以人物走向明亮走廊结束。
-
-声音：自然普通话、拉链声、物品放入声、电梯提示音；不加夸张 BGM。口型自然，台词只说一次；无字幕、无品牌、无额外物品、无镜中重复人物。
-```
-
-## 完整场景库
-
-[**打开 60 个可复制的 Seedance 2.5 原创提示词总索引 →**](prompts/README.md)
-
-| 内容包 | 数量 | 覆盖范围 |
-|---|---:|---|
-| [基础场景库](prompts/prompt-library.md) | 24 | 电影、产品、UGC、动画、运动、声音、图生视频控制、绿幕与白模 |
-| [扩展场景库](prompts/extended-scenarios.md) | 36 | 品牌、电商、时尚、VFX、UI、喜剧、教育、建筑、交通、自然、工业、酒店 |
-| [独立多语言 prompts](prompts/i18n/README.md) | 11 份 | 繁中、英、日、韩、西、法、德、葡、阿、俄、印尼语 |
-| [使用场景选择矩阵](docs/use-case-matrix.md) | 18 类目标 | 按业务、素材、渠道与画幅快速选择模板 |
-
-新增场景包括真实小户型导览、湿地科普、台钻安全培训、载货电助力自行车、配送机器人、宠物雨衣、冷链追踪、无障碍动线、商品 360 度旋转、UI 操作演示、三画幅广告适配和展位搭建等，可直接用于商业、教育与专业制作工作流。
-
-## 图生视频技巧
-
-### 输入图怎么选
-
-- 主体与背景有清晰层次，能产生前景、中景、远景视差。
-- 避免已经处于极端动作中间态的姿势，除非你明确知道下一步运动方向。
-- 产品图尽量正面或三分之二角度，边缘完整，标签清晰，反射不过曝。
-- 人物图最好能看清双手，或让双手自然离开画面，减少凭空补全。
-- 需要镜头移动时，在画面运动方向留出空间。
-
-### 参考素材分工
-
-不要写“综合参考所有素材”。给每个输入一个职责：
-
-```text
-图1：只锁定人物脸部、发型、服装和身体比例。
-图2：只锁定场景结构、色彩与主光方向。
-视频1：只参考从低机位上升到肩部的运镜路径，不复制其中人物。
-音频1：只参考节奏速度和鼓点，不复制旋律或人声。
-```
-
-### 失败时如何改
-
-| 问题 | 优先修改 |
-|---|---|
-| 人物或产品漂移 | 缩短动作链，重复不变量，减少同时运动的元素 |
-| 镜头不动 | 写清起点、路径、速度、终点和持续时间 |
-| 镜头乱晃 | 去掉互相冲突的运镜词，加入“稳定、单一路径” |
-| 多人站位混乱 | 给人物命名或编号，写左右关系和互动顺序 |
-| 声音抢对白 | 降低音乐存在感，明确对白优先级和音量层级 |
-| 结尾突兀 | 为最后 4–6 秒指定减速、停机位和最终构图 |
-
-## 多语言提示词
-
-Seedance 2.5 可使用自然语言描述。仓库提供简体中文主库，以及 11 份包含完整 prompts 的独立语言文件：
-
-| 语言 | Prompts 文件 | 语言 | Prompts 文件 |
-|---|---|---|---|
-| 简体中文 | [60 场景总索引](prompts/README.md) | 繁體中文 | [繁中 prompts](prompts/i18n/prompt-library.zh-TW.md) |
-| English | [English prompts](prompts/i18n/prompt-library.en.md) | 日本語 | [日本語 prompts](prompts/i18n/prompt-library.ja.md) |
-| 한국어 | [한국어 prompts](prompts/i18n/prompt-library.ko.md) | Español | [Prompts en español](prompts/i18n/prompt-library.es.md) |
-| Français | [Prompts français](prompts/i18n/prompt-library.fr.md) | Deutsch | [Deutsche Prompts](prompts/i18n/prompt-library.de.md) |
-| Português | [Prompts em português](prompts/i18n/prompt-library.pt-BR.md) | العربية | [المطالبات العربية](prompts/i18n/prompt-library.ar.md) |
-| Русский | [Русские промпты](prompts/i18n/prompt-library.ru.md) | Bahasa Indonesia | [Prompt Bahasa Indonesia](prompts/i18n/prompt-library.id.md) |
-
-完整语言矩阵、本地化规则与人工检查清单见 [多语言 Prompts 目录](prompts/i18n/README.md)。另保留[八语言单场景逐句对照](prompts/multilingual-pack.md)，用于比较不同语言的导演结构。
-
-跨语言使用时，建议保留时间码、素材编号和固定字段名，减少翻译造成的职责混淆。对白使用目标语言书写，并明确“逐字说出、不要字幕、不要额外台词”。
-
-## 常见问题
-
-### Seedance 2.5 提示词越长越好吗？
-
-不是。长提示词只有在信息存在清晰层级时才有价值。一个动作、一个运镜和一个声音同步点通常比堆叠大量风格形容词更可靠。
-
-### 30 秒应该切多少个镜头？
-
-产品广告常用 3–5 个镜头，剧情短片可用 4–6 个镜头；如果目标是展示连续物理动作或角色一致性，优先使用一个有明确路径的长镜头。
-
-### 可以直接写知名导演、电影或角色名称吗？
-
-不建议。更稳妥的写法是描述可观察的摄影属性，例如“低饱和自然光、静态对称构图、缓慢横移、克制表演”，并使用原创角色和有授权的素材。
-
-### 为什么页面参数与官方能力描述不同？
-
-模型能力、API 参数和第三方平台开放状态可能不同步。官方页面描述 Seedance 2.5 可生成最长 30 秒并可延长两次；具体在线入口可能分阶段开放或提供不同档位，请以页面实时参数为准。
-
-### 在线使用地址在哪里？
-
-[打开 Flaq AI 的 Seedance 2.5 Image-to-Video 页面](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)。
-
-## 资料来源
-
-- [Seedance 2.5 官方能力页面](https://seed.bytedance.com/en/seedance2_5)
-- [Seedance 2.5 Image-to-Video 在线页面](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
-- [Seedance 2.0 官方发布说明](https://seed.bytedance.com/en/blog/seedance-2-0-official-launch)
-
-## 内容与版权说明
-
-- 本仓库的分类体系、说明文字、提示词、示例场景与配图均为重新策划和生成的原创内容。
-- 四张配图的可复现生成说明见 [Original Image Prompt Notes](assets/IMAGE_PROMPTS.md)。
-- 示例不使用影视 IP、名人姓名、第三方品牌口号或未经授权的角色素材。
-- 请只上传你拥有或已获授权的图片、视频、音频、人物肖像和商标素材。
-- AI 生成结果仍需进行事实、版权、肖像权、商标、声音和平台政策检查，商业使用前应人工复核。
-- 代码与仓库文本依照 [MIT License](LICENSE) 提供；生成结果的可用权利仍取决于输入素材、服务条款与适用法律。
-
----
-
-如果这个 Seedance 2.5 提示词库对你有帮助，欢迎 Star、提交原创场景或改进现有模板。贡献内容请避免品牌、名人、受版权保护角色和来源不明的素材。
+The reproducible visual briefs are documented in [Original Image Prompt Notes](assets/IMAGE_PROMPTS.md).

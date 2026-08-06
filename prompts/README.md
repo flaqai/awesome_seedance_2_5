@@ -1,6 +1,6 @@
 # Seedance 2.5 Prompt Library Index：60 个场景与多语言版本
 
-[返回主指南](../README.md) · [在线使用 Seedance 2.5](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/) · [多语言目录](i18n/README.md)
+[English Guide](../README.md) · [中文指南](../README_ZH.md) · [在线使用 Seedance 2.5](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/) · [多语言目录](i18n/README.md)
 
 本目录提供 **60 个原创 Seedance 2.5 完整提示词**、独立语言文件和本地化规范。所有内容针对图生视频、文生视频、参考生视频、音画联合生成、白模预演、绿幕、首尾帧和精准编辑进行组织。
 

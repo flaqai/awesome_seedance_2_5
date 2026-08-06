@@ -1,6 +1,6 @@
 # Seedance 2.5 多语言 Prompts 目录
 
-[返回 60 场景索引](../README.md) · [返回主指南](../../README.md) · [在线使用](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[返回 60 场景索引](../README.md) · [English Guide](../../README.md) · [中文指南](../../README_ZH.md) · [在线使用](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 这里的每个语言文件均包含 6 个完整提示词，覆盖产品广告、时尚、电商 UI、科普、房地产和宠物场景。它们保留相同的场景 ID 与制作约束，方便团队逐语言测试提示词理解、对白、音频和本地化表现。
 

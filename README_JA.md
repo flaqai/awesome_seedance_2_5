@@ -1,6 +1,6 @@
 # Seedance 2.5 プロンプト集：画像から動画を作る実践ガイド
 
-[简体中文](README.md) · [English](README_EN.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [12言語プロンプト](prompts/i18n/README.md)
+[English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [12言語プロンプト](prompts/i18n/README.md)
 
 ![Seedance 2.5 プロンプトガイドのオリジナル画像](assets/seedance-2-5-prompt-guide-hero.png)
 

@@ -1,6 +1,6 @@
 # Prompts para Seedance 2.5: guía práctica de imagen a vídeo
 
-[简体中文](README.md) · [English](README_EN.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [Prompts en 12 idiomas](prompts/i18n/README.md)
+[English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [Prompts en 12 idiomas](prompts/i18n/README.md)
 
 ![Imagen original para la guía de prompts de Seedance 2.5](assets/seedance-2-5-prompt-guide-hero.png)
 
