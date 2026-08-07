@@ -1,6 +1,6 @@
 # Prompts Seedance 2.5 — Français
 
-[Toutes les langues](README.md) · [Index des 60 scènes](../README.md) · [Utiliser en ligne](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[Toutes les langues](README.md) · [Index des 72 scènes](../README.md) · [Utiliser en ligne](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 ## I18N-01 Publicité pour un thé pétillant sans marque
 
@@ -61,4 +61,3 @@ Un adulte laisse le chien se tenir naturellement, ferme les deux sangles et vér
 
 Son : pluie, attaches, pattes et encouragement doux. Pas de changement de race, rajeunissement, tissu traversant, détresse, allégation médicale, logo, texte ou filigrane.
 ```
-

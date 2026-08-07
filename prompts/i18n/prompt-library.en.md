@@ -1,6 +1,6 @@
 # Seedance 2.5 Prompts — English Edition
 
-[All languages](README.md) · [60-scene Chinese library](../README.md) · [Use Seedance 2.5 online](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[All languages](README.md) · [72-scene master index](../README.md) · [Use Seedance 2.5 online](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 Six complete English prompts for practical Seedance 2.5 image-to-video and reference-to-video workflows.
 

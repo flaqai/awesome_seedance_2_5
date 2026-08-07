@@ -1,6 +1,6 @@
 # Prompts Seedance 2.5 — Português do Brasil
 
-[Todos os idiomas](README.md) · [Índice de 60 cenas](../README.md) · [Usar online](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[Todos os idiomas](README.md) · [Índice de 72 cenas](../README.md) · [Usar online](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 ## I18N-01 Comercial de chá gaseificado sem marca
 

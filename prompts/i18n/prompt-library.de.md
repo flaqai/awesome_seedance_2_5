@@ -1,6 +1,6 @@
 # Seedance 2.5 Prompts — Deutsch
 
-[Alle Sprachen](README.md) · [Index mit 60 Szenen](../README.md) · [Online verwenden](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[Alle Sprachen](README.md) · [Index mit 72 Szenen](../README.md) · [Online verwenden](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 ## I18N-01 Markenfreier Sprudeltee-Spot
 
@@ -61,4 +61,3 @@ Eine erwachsene Person lässt den Hund natürlich stehen, schließt beide Gurte 
 
 Ton: Regen, Verschlüsse, Pfoten, ruhiges Lob. Kein Rassewechsel, Verjüngen, Stoff-Clipping, Unbehagen, medizinisches Versprechen, Logo, Text oder Wasserzeichen.
 ```
-

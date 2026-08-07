@@ -519,7 +519,7 @@
 
 ## 继续浏览
 
-- [60 场景总索引](README.md)
+- [72 场景总索引](README.md)
 - [基础 24 个电影、产品、UGC 与制作场景](prompt-library.md)
 - [独立多语言 prompts 文件](i18n/README.md)
 - [Seedance 2.5 在线使用页面](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)

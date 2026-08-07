@@ -1,6 +1,6 @@
 # Seedance 2.5 使用场景选择矩阵
 
-[English Guide](../README.md) · [中文指南](../README_ZH.md) · [60 个提示词索引](../prompts/README.md) · [多语言 prompts](../prompts/i18n/README.md) · [在线使用](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[English Guide](../README.md) · [中文指南](../README_ZH.md) · [72 个提示词索引](../prompts/README.md) · [多语言 prompts](../prompts/i18n/README.md) · [在线使用](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 不知道应该从哪个提示词开始时，先按目标选择场景，再根据输入素材、画幅、时长和验收重点筛选。具体参数以平台实时页面为准。
 
@@ -28,6 +28,8 @@
 | 酒店会展 | 23 大堂白模、58 木屋、59 展位、60 舞会 | 白模 / 场景图 | 16:9 / 9:16 | 空间诚实、设施不虚构、动线 |
 
 ## 按输入素材选择
+
+英文专业场景 61–72 另见 [Advanced Workflows](../prompts/advanced-workflows.en.md)，覆盖 SaaS、创作者课程、家具组装、珠宝、餐饮、博物馆、清洁能源、远程问诊入口、播客、物流 UI、无障碍活动和独立游戏。
 
 | 你拥有的素材 | 推荐模式 | 适合场景 | 写法 |
 |---|---|---|---|
@@ -67,5 +69,5 @@
 
 - [基础 24 个提示词](../prompts/prompt-library.md)
 - [扩展 36 个提示词](../prompts/extended-scenarios.md)
-- [11 份独立外语 prompts](../prompts/i18n/README.md)
+- [14 份独立外语 prompts（共 15 种语言）](../prompts/i18n/README.md)
 - [Seedance 2.5 在线页面](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)

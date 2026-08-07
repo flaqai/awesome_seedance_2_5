@@ -1,6 +1,6 @@
 # Seedance 2.5 프롬프트 — 한국어판
 
-[모든 언어](README.md) · [60개 장면 색인](../README.md) · [온라인 사용](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[모든 언어](README.md) · [72개 장면 색인](../README.md) · [온라인 사용](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 ## I18N-01 무브랜드 스파클링 티 공개 영상
 

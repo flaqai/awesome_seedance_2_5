@@ -1,6 +1,6 @@
 # Seedance 2.5 プロンプト — 日本語版
 
-[全言語](README.md) · [60シーン索引](../README.md) · [オンラインで使用](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[全言語](README.md) · [72シーン索引](../README.md) · [オンラインで使用](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 ## I18N-01 ノーブランド炭酸ティーの商品映像
 
@@ -61,4 +61,3 @@
 
 音：雨、留め具、足音、静かな声かけ。犬種変更、若返り、服の貫通、不快表現、医療主張、ロゴ、文字、透かしは禁止。
 ```
-

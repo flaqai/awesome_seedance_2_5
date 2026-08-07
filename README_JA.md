@@ -1,14 +1,14 @@
 # Seedance 2.5 プロンプト集：画像から動画を作る実践ガイド
 
-[English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [12言語プロンプト](prompts/i18n/README.md)
+[English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [15言語プロンプト](prompts/i18n/README.md)
 
 ![Seedance 2.5 プロンプトガイドのオリジナル画像](assets/seedance-2-5-prompt-guide-hero.png)
 
-このリポジトリは、**60本のSeedance 2.5実践プロンプトと12言語のサポート**を収録しています。画像生成動画、テキスト生成動画、参照動画、音声同期、カメラワーク、グリーンバック、ホワイトモデル・プリビズに加え、広告、EC、教育、不動産、交通、自然、産業、UGC、旅行、料理、スポーツ、ASMR、アニメーションを扱います。
+このリポジトリは、**72本のSeedance 2.5実践プロンプトと15言語のサポート**を収録しています。60本の基本・追加シーンと、SaaS、EC、教育、アクセシビリティ、エンターテインメント向けの英語プロワークフロー12本で構成されています。
 
-> **オンラインで試す：** [Flaq AI の Seedance 2.5 Image-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+> **Flaq AI で試す：** アイデアや脚本から始める場合は [Text-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/)、製品・人物・構図を維持する場合は [Image-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/) を選びます。
 >
-> 公開状況や設定項目は変更される場合があります。長さ、解像度、音声、参照素材の現在の条件は利用ページで確認してください。
+> 設定、料金、入力条件、API仕様は変更される場合があります。最新情報はFlaq AIの各ページで確認してください。
 
 ## Seedance 2.5 向けの基本構造
 
@@ -38,7 +38,7 @@
 
 ## 収録内容
 
-[60シーン総合索引](prompts/README.md)は、[基本24本](prompts/prompt-library.md)と[追加36本](prompts/extended-scenarios.md)で構成されています。
+[72シーン総合索引](prompts/README.md)は、[基本24本](prompts/prompt-library.md)、[追加36本](prompts/extended-scenarios.md)、[英語プロワークフロー12本](prompts/advanced-workflows.en.md)で構成されています。
 
 - 映画ドラマ、救助訓練、近未来SF;
 - 飲料、スキンケア、ウェアラブルの商品広告;
@@ -49,7 +49,7 @@
 - 顔の微表情、建築パララックス、開始・終了フレーム;
 - グリーンバック、ホワイトモデル、参照カメラ、部分編集。
 
-日本語で直接コピーできる6本の完全なレシピは、[日本語プロンプトファイル](prompts/i18n/prompt-library.ja.md)に収録しています。ほかの言語と本地化ルールは[12言語ディレクトリ](prompts/i18n/README.md)を参照してください。
+日本語で直接コピーできる6本の完全なレシピは、[日本語プロンプトファイル](prompts/i18n/prompt-library.ja.md)に収録しています。ほかの言語とローカライズ規則は[15言語ディレクトリ](prompts/i18n/README.md)を参照してください。
 
 ## 画像から動画を作るときの確認事項
 

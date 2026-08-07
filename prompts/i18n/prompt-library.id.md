@@ -1,6 +1,6 @@
 # Prompt Seedance 2.5 — Bahasa Indonesia
 
-[Semua bahasa](README.md) · [Indeks 60 adegan](../README.md) · [Gunakan online](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[Semua bahasa](README.md) · [Indeks 72 adegan](../README.md) · [Gunakan online](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 ## I18N-01 Iklan teh berkarbonasi tanpa merek
 

@@ -1,8 +1,8 @@
-# Seedance 2.5 Prompt Library Index：60 个场景与多语言版本
+# Seedance 2.5 Prompt Library Index：72 个场景与多语言版本
 
 [English Guide](../README.md) · [中文指南](../README_ZH.md) · [在线使用 Seedance 2.5](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/) · [多语言目录](i18n/README.md)
 
-本目录提供 **60 个原创 Seedance 2.5 完整提示词**、独立语言文件和本地化规范。所有内容针对图生视频、文生视频、参考生视频、音画联合生成、白模预演、绿幕、首尾帧和精准编辑进行组织。
+本目录提供 **72 个原创 Seedance 2.5 完整提示词**、独立语言文件和本地化规范。其中 60 个中文基础与扩展场景覆盖通用创作，新增 12 个英文专业工作流服务 SaaS、创作者、电商、教育、无障碍和娱乐项目。
 
 ## 内容文件
 
@@ -10,10 +10,11 @@
 |---|---:|---|
 | [基础场景库](prompt-library.md) | 24 | 电影、产品、UGC、动画、运动、声音、图生视频控制、专业制作 |
 | [扩展场景库](extended-scenarios.md) | 36 | 品牌、电商、时尚、VFX、UI、喜剧、教育、建筑、交通、自然、工业、酒店 |
-| [多语言 prompts](i18n/README.md) | 11 种语言 | 每种语言独立文件，可直接复制 |
+| [英文专业工作流](advanced-workflows.en.md) | 12 | SaaS、创作者课程、家具、珠宝、餐饮、博物馆、能源、医疗入口、播客、物流、无障碍、游戏 |
+| [多语言 prompts](i18n/README.md) | 15 种语言 | 14 份独立外语文件，可直接复制 |
 | [多语言单场景对照](multilingual-pack.md) | 8 种语言 | 用同一场景对比不同语言的表达结构 |
 
-## 60 个提示词快速索引
+## 72 个提示词快速索引
 
 ### 电影、产品与创作者内容
 
@@ -85,13 +86,30 @@
 | 59 | 小型展位搭建 | 会展 | [扩展库](extended-scenarios.md#59-小型展位从空场到开门) |
 | 60 | 无声耳机舞会 | 活动 | [扩展库](extended-scenarios.md#60-无声耳机舞会入场体验) |
 
+### 英文专业工作流
+
+| ID | Scene | Category | File |
+|---:|---|---|---|
+| 61 | Calm SaaS launch film | SaaS / UI | [Advanced workflows](advanced-workflows.en.md#61-calm-saas-launch-film-without-invented-metrics) |
+| 62 | Creator course vertical ad | Creator / UGC | [Advanced workflows](advanced-workflows.en.md#62-creator-course-vertical-ad-with-credible-delivery) |
+| 63 | Flat-pack side-table assembly | Ecommerce | [Advanced workflows](advanced-workflows.en.md#63-flat-pack-side-table-assembly-proof) |
+| 64 | Recycled-silver ring macro | Jewelry | [Advanced workflows](advanced-workflows.en.md#64-recycled-silver-ring-macro-study) |
+| 65 | Seasonal restaurant menu | Food / Hospitality | [Advanced workflows](advanced-workflows.en.md#65-seasonal-restaurant-menu-film-with-honest-ingredients) |
+| 66 | Community museum teaser | Arts / Culture | [Advanced workflows](advanced-workflows.en.md#66-community-museum-exhibition-teaser) |
+| 67 | Solar-and-storage explainer | Clean energy | [Advanced workflows](advanced-workflows.en.md#67-neighborhood-solar-and-storage-explainer) |
+| 68 | Telehealth onboarding | Health-service UI | [Advanced workflows](advanced-workflows.en.md#68-accessible-telehealth-appointment-onboarding) |
+| 69 | Multilingual podcast trailer | Audio / Creator | [Advanced workflows](advanced-workflows.en.md#69-multilingual-independent-podcast-trailer) |
+| 70 | Parcel tracking walkthrough | Logistics / UI | [Advanced workflows](advanced-workflows.en.md#70-parcel-tracking-status-walkthrough) |
+| 71 | Accessible event welcome | Accessibility | [Advanced workflows](advanced-workflows.en.md#71-accessible-live-event-welcome-film) |
+| 72 | Original indie game reveal | Game / Animation | [Advanced workflows](advanced-workflows.en.md#72-original-indie-game-world-reveal) |
+
 ## 多语言覆盖
 
-每个语言文件包含 6 个完整、可复制的代表性 prompts，而不是只翻译标题。中文主库提供全部 60 个场景。
+每个语言文件包含 6 个完整、可复制的代表性 prompts，而不是只翻译标题。中文基础与扩展库提供 60 个场景，英文专业工作流另提供 12 个场景。
 
 | 语言 | 文件 | 本地名称 |
 |---|---|---|
-| 简体中文 | [60 个场景总索引](README.md) | 简体中文 |
+| 简体中文 | [72 个场景总索引](README.md) | 简体中文 |
 | 繁體中文 | [prompt-library.zh-TW.md](i18n/prompt-library.zh-TW.md) | 繁體中文 |
 | English | [prompt-library.en.md](i18n/prompt-library.en.md) | English |
 | 日本語 | [prompt-library.ja.md](i18n/prompt-library.ja.md) | 日本語 |
@@ -103,6 +121,9 @@
 | العربية | [prompt-library.ar.md](i18n/prompt-library.ar.md) | العربية |
 | Русский | [prompt-library.ru.md](i18n/prompt-library.ru.md) | Русский |
 | Bahasa Indonesia | [prompt-library.id.md](i18n/prompt-library.id.md) | Bahasa Indonesia |
+| Italiano | [prompt-library.it.md](i18n/prompt-library.it.md) | Italiano |
+| ไทย | [prompt-library.th.md](i18n/prompt-library.th.md) | ไทย |
+| Tiếng Việt | [prompt-library.vi.md](i18n/prompt-library.vi.md) | Tiếng Việt |
 
 ## 标准提示词字段
 

@@ -1,6 +1,6 @@
 # Prompts para Seedance 2.5 — Español
 
-[Todos los idiomas](README.md) · [Índice de 60 escenas](../README.md) · [Usar en línea](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[Todos los idiomas](README.md) · [Índice de 72 escenas](../README.md) · [Usar en línea](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 ## I18N-01 Anuncio de té con gas sin marca
 
@@ -61,4 +61,3 @@ Una persona adulta deja al perro de pie con naturalidad, cierra las dos correas 
 
 Audio: lluvia, cierres, patas y elogio suave. Sin cambio de raza, rejuvenecimiento, tela atravesando el cuerpo, malestar, promesa médica, logotipo, texto ni marca de agua.
 ```
-

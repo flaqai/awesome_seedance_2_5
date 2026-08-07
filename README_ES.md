@@ -1,14 +1,14 @@
 # Prompts para Seedance 2.5: guía práctica de imagen a vídeo
 
-[English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [Prompts en 12 idiomas](prompts/i18n/README.md)
+[English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [Prompts en 15 idiomas](prompts/i18n/README.md)
 
 ![Imagen original para la guía de prompts de Seedance 2.5](assets/seedance-2-5-prompt-guide-hero.png)
 
-Biblioteca original con **60 prompts para Seedance 2.5 y soporte para 12 idiomas**: imagen a vídeo, texto a vídeo, vídeo de referencia, audio sincronizado, cámara, croma verde, previsualización con modelos blancos, publicidad, ecommerce, UGC, educación, inmobiliaria, movilidad, naturaleza, animación, deporte, viajes y narrativa cinematográfica.
+Biblioteca original con **72 prompts para Seedance 2.5 y soporte para 15 idiomas**: 60 escenas generales y 12 flujos profesionales en inglés para SaaS, ecommerce, educación, accesibilidad y entretenimiento.
 
-> **Usar Seedance 2.5 en línea:** [Abrir Seedance 2.5 Image-to-Video en Flaq AI](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+> **Usar Seedance 2.5 en Flaq AI:** elige [Text-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/) si partes de una idea o un guion, o [Image-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/) si necesitas conservar un producto, una persona o una composición.
 >
-> La disponibilidad y los parámetros pueden cambiar durante el despliegue. Comprueba en la página la duración, resolución, audio y entradas disponibles.
+> Los parámetros, precios, requisitos de entrada y esquemas API pueden cambiar. Consulta siempre las páginas de Flaq AI para conocer los detalles actuales.
 
 ## Cómo escribir un buen prompt para Seedance 2.5
 
@@ -39,7 +39,7 @@ Audio: lluvia, libro al cerrarse, un leve sonido de taza y plato, y ambiente tra
 
 ## Biblioteca completa
 
-El [índice maestro de 60 escenas](prompts/README.md) combina una [biblioteca base de 24 escenas](prompts/prompt-library.md) y una [ampliación de 36 escenas](prompts/extended-scenarios.md). Incluye:
+El [índice maestro de 72 escenas](prompts/README.md) combina una [biblioteca base de 24 escenas](prompts/prompt-library.md), una [ampliación de 36 escenas](prompts/extended-scenarios.md) y [12 flujos profesionales en inglés](prompts/advanced-workflows.en.md). Incluye:
 
 - drama cinematográfico y ciencia ficción;
 - anuncios de bebidas, cosmética y wearables;
@@ -50,7 +50,7 @@ El [índice maestro de 60 escenas](prompts/README.md) combina una [biblioteca ba
 - microexpresiones, paralaje arquitectónico y fotogramas inicial/final;
 - croma verde, previs con modelo blanco, cámara de referencia y edición precisa.
 
-El archivo [prompts completos en español](prompts/i18n/prompt-library.es.md) contiene seis recetas listas para copiar. Consulta el [directorio de 12 idiomas](prompts/i18n/README.md) para chino tradicional, inglés, japonés, coreano, francés, alemán, portugués, árabe, ruso e indonesio.
+El archivo [prompts completos en español](prompts/i18n/prompt-library.es.md) contiene seis recetas listas para copiar. Consulta el [directorio de 15 idiomas](prompts/i18n/README.md), que también incluye italiano, tailandés y vietnamita.
 
 ## Lista de control para imagen a vídeo
 
