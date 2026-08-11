@@ -26,3 +26,9 @@ Ce dépôt réunit **72 recettes vidéo originales pour Seedance 2.5** et prend 
 ```
 
 Tous les exemples ont été réécrits pour cette collection et évitent les célébrités, slogans de marques et personnages protégés. Vérifiez toujours les droits liés aux personnes, images, musiques, marques et lieux avant un usage commercial.
+
+## Recevoir une commission avec le programme d'affiliation Flaq AI
+
+Les développeurs, créateurs d'agents, testeurs, équipes créatives et formateurs peuvent [rejoindre le programme d'affiliation Flaq AI](https://flaq.ai/affiliate-program/), créer un lien de parrainage et recevoir une commission sur les commandes éligibles. La structure publique actuelle indique **20 % sur la première commande payante valide**, puis **10 % sur les commandes valides suivantes dans les 60 jours après l'inscription de l'utilisateur recommandé**.
+
+Les remboursements, l'attribution, la vérification et les règles du programme peuvent modifier l'éligibilité et le paiement. Signalez clairement la relation d'affiliation et consultez les conditions en vigueur. Voir aussi le [guide en 15 langues](docs/flaq-affiliate-program.md).

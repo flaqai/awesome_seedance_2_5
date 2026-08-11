@@ -172,3 +172,9 @@ New original scenarios, careful localizations, accessibility improvements, and r
 All prompts, scenarios, explanatory copy, and images in this repository were newly created for this collection. The examples avoid celebrity likenesses, third-party brand slogans, and protected fictional characters. Review generated output for copyright, likeness, trademark, audio, safety, and platform-policy compliance before commercial use.
 
 The reproducible visual briefs are documented in [Original Image Prompt Notes](assets/IMAGE_PROMPTS.md).
+
+## Earn commission with the Flaq AI Affiliate Program
+
+Developers, agent builders, reviewers, creative teams, and AI educators can [join the Flaq AI Affiliate Program](https://flaq.ai/affiliate-program/), create a referral link, and earn commission from eligible orders made by referred users. The current public structure lists **20% on the first valid paid order** and **10% on following valid paid orders within 60 days after the referred user's registration**.
+
+Refunds, chargebacks, attribution, risk review, and policy rules can affect eligibility and payout. Disclose the affiliate relationship clearly when sharing a referral link, and check the live program terms before promoting. Read the [15-language Affiliate Program guide](docs/flaq-affiliate-program.md).

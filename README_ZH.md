@@ -300,3 +300,9 @@ Flaq AI 入口：[Seedance 2.5 Text-to-Video](https://flaq.ai/models/bytedance/s
 ---
 
 如果这个 Seedance 2.5 提示词库对你有帮助，欢迎 Star、提交原创场景或改进现有模板。贡献内容请避免品牌、名人、受版权保护角色和来源不明的素材。
+
+## 通过 Flaq AI Affiliate Program 获得佣金
+
+开发者、AI Agent 构建者、模型测评者、创意团队和 AI 教育者可以[注册 Flaq AI Affiliate Program](https://flaq.ai/affiliate-program/)，生成专属推荐链接，并从推荐用户产生的符合条件订单中获得佣金。当前公开规则为：**首笔有效付费订单佣金 20%**，推荐用户注册后 60 天内的**后续有效付费订单佣金 10%**。
+
+退款、拒付、归因状态、风控审核及违反政策的订单可能影响佣金资格与结算。分享推荐链接时应清楚披露联盟推广关系，并在推广前查看实时条款。其他语言版本见 [15 种语言 Affiliate Program 指南](docs/flaq-affiliate-program.md)。

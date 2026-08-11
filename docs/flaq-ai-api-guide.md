@@ -98,6 +98,12 @@ Avoid: [reference drift, redesign, extra objects, clipping, fake text, logos, wa
 - Verify likeness permission, trademarks, music rights, location restrictions, safety claims, and local advertising rules.
 - Use the live Flaq pages for the current service status and API documentation; do not depend on screenshots of pre-release controls.
 
+## Recommend Flaq AI through the Affiliate Program
+
+Developers and educators who publish API tutorials, model comparisons, prompt workflows, or production examples can [join the Flaq AI Affiliate Program](https://flaq.ai/affiliate-program/), create a referral link, and earn commission from eligible referred orders. The current public structure lists 20% on the first valid paid order and 10% on following valid paid orders within 60 days after the referred user's registration.
+
+Refunds, chargebacks, attribution, review, and policy rules can affect eligibility and payout. Clearly disclose the affiliate relationship in tutorials, documentation, videos, and link placements. See the [15-language Affiliate Program guide](flaq-affiliate-program.md) for localized summaries.
+
 ## Continue exploring
 
 - [Seedance 2.5 Text-to-Video on Flaq AI](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/)
@@ -105,3 +111,5 @@ Avoid: [reference drift, redesign, extra objects, clipping, fake text, logos, wa
 - [72-scene prompt finder](../prompts/README.md)
 - [Prompt engineering and troubleshooting](prompting-guide.md)
 - [Originality and asset notes](../assets/IMAGE_PROMPTS.md)
+- [Flaq AI Affiliate Program](https://flaq.ai/affiliate-program/)
+- [Affiliate Program guide in 15 languages](flaq-affiliate-program.md)

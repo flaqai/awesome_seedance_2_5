@@ -26,3 +26,9 @@ Dieses Repository enthält **72 neu erstellte Seedance-2.5-Videorezepte** und un
 ```
 
 Alle Szenen und Texte wurden für diese Sammlung neu erstellt. Prüfe vor kommerzieller Nutzung Einwilligungen, Bild- und Musikrechte, Marken, Orte, Aussagen und Plattformregeln.
+
+## Provision mit dem Flaq AI Affiliate Program verdienen
+
+Entwickler, Agent-Builder, Tester, Kreativteams und KI-Lehrende können dem [Flaq AI Affiliate Program](https://flaq.ai/affiliate-program/) beitreten, einen Empfehlungslink erstellen und Provision für berechtigte Bestellungen erhalten. Die aktuelle öffentliche Struktur nennt **20 % für die erste gültige bezahlte Bestellung** und **10 % für weitere gültige Bestellungen innerhalb von 60 Tagen nach der Registrierung des geworbenen Nutzers**.
+
+Rückerstattungen, Zuordnung, Prüfung und Programmregeln können Anspruch und Auszahlung beeinflussen. Affiliate-Beziehungen klar offenlegen und die aktuellen Bedingungen prüfen. Siehe auch den [Leitfaden in 15 Sprachen](docs/flaq-affiliate-program.md).

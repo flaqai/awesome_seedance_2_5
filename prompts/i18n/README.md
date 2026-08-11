@@ -51,3 +51,9 @@
 - 是否意外删除了版权、安全或一致性限制；
 - 是否生成了不必要的字幕、商标、价格或事实声明；
 - RTL 版本的 UI 阅读方向与镜头空间方向是否分别处理。
+
+## Flaq AI Affiliate Program
+
+开发者、创作者、模型测评者和 AI 教育者可以注册 Flaq AI Affiliate Program，生成推荐链接，并从符合条件的推荐订单中获得佣金。当前公开规则为首笔有效付费订单 20%，推荐用户注册后 60 天内的后续有效付费订单 10%；实际资格与结算以实时条款为准。
+
+项目已提供覆盖全部 15 种语言的说明、加入流程、风险条件及推广披露提醒：[Flaq AI Affiliate Program — 15-Language Guide](../../docs/flaq-affiliate-program.md)。

@@ -62,3 +62,9 @@ El archivo [prompts completos en español](prompts/i18n/prompt-library.es.md) co
 - Usa únicamente personas, música, voces, marcas e imágenes propias o autorizadas.
 
 Todos los prompts, escenarios, textos explicativos e imágenes de este repositorio fueron creados de nuevo para esta colección. Los ejemplos evitan celebridades, lemas de terceros y personajes protegidos. Revisa derechos de autor, imagen, marca, audio, seguridad y políticas de la plataforma antes de cualquier uso comercial.
+
+## Recibe comisiones con el programa de afiliados de Flaq AI
+
+Desarrolladores, creadores de agentes, analistas, equipos creativos y educadores pueden [unirse al programa de afiliados de Flaq AI](https://flaq.ai/affiliate-program/), crear un enlace de referencia y recibir comisiones por pedidos aptos. La estructura pública actual indica **20% por el primer pedido válido de pago** y **10% por los pedidos válidos siguientes durante los 60 días posteriores al registro del usuario referido**.
+
+Los reembolsos, la atribución, la revisión y las políticas pueden afectar la validez y el pago. Informa claramente de la relación de afiliación y consulta las condiciones vigentes. También está disponible la [guía en 15 idiomas](docs/flaq-affiliate-program.md).
