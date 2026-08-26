@@ -4,7 +4,9 @@
 
 ![Imagen original para la guía de prompts de Seedance 2.5](assets/seedance-2-5-prompt-guide-hero.png)
 
-Biblioteca original con **72 prompts para Seedance 2.5 y soporte para 15 idiomas**: 60 escenas generales y 12 flujos profesionales en inglés para SaaS, ecommerce, educación, accesibilidad y entretenimiento.
+Biblioteca original con **100 prompts para Seedance 2.5 y soporte para 15 idiomas**: 60 escenas generales y 40 flujos profesionales en inglés para producción, edición, ecommerce, educación, accesibilidad y entretenimiento.
+
+Comparte un prompt original y probado mediante el [formulario de contribución](https://github.com/flaqai/awesome_seedance_2_5/issues/new?template=prompt.yml), incluyendo ajustes, entradas y el resultado real. Las propuestas aceptadas pueden publicarse con atribución después de su revisión.
 
 > **Usar Seedance 2.5 en Flaq AI:** elige [Text-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/) si partes de una idea o un guion, o [Image-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/) si necesitas conservar un producto, una persona o una composición.
 >
@@ -39,7 +41,7 @@ Audio: lluvia, libro al cerrarse, un leve sonido de taza y plato, y ambiente tra
 
 ## Biblioteca completa
 
-El [índice maestro de 72 escenas](prompts/README.md) combina una [biblioteca base de 24 escenas](prompts/prompt-library.md), una [ampliación de 36 escenas](prompts/extended-scenarios.md) y [12 flujos profesionales en inglés](prompts/advanced-workflows.en.md). Incluye:
+El [índice maestro de 100 escenas](prompts/README.md) combina una [biblioteca base de 24 escenas](prompts/prompt-library.md), una [ampliación de 36 escenas](prompts/extended-scenarios.md), [12 flujos profesionales](prompts/advanced-workflows.en.md) y [28 técnicas creativas](prompts/creative-techniques.en.md). Incluye:
 
 - drama cinematográfico y ciencia ficción;
 - anuncios de bebidas, cosmética y wearables;

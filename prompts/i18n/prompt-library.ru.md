@@ -1,6 +1,6 @@
 # Промпты Seedance 2.5 — Русский
 
-[Все языки](README.md) · [Индекс 72 сцен](../README.md) · [Использовать онлайн](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[Все языки](README.md) · [Индекс 100 сцен](../README.md) · [Использовать онлайн](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 ## I18N-01 Реклама газированного чая без бренда
 

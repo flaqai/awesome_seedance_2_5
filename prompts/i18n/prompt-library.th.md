@@ -1,6 +1,6 @@
 # พรอมต์ Seedance 2.5 — ภาษาไทย
 
-[ทุกภาษา](README.md) · [ดัชนี 72 ฉาก](../README.md) · [Seedance 2.5 บน Flaq AI](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[ทุกภาษา](README.md) · [ดัชนี 100 ฉาก](../README.md) · [Seedance 2.5 บน Flaq AI](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 พรอมต์ภาษาไทยฉบับเต็ม 6 รายการสำหรับงาน image-to-video และ reference-to-video โดยระบุภาพอ้างอิง การกำกับภาพ เสียง ความต่อเนื่อง และข้อห้ามอย่างครบถ้วน
 

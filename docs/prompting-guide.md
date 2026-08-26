@@ -1,6 +1,6 @@
 # Seedance 2.5 Prompting Guide: From Brief to Usable Video
 
-[Home](../README.md) · [72 prompt recipes](../prompts/README.md) · [Flaq AI workflow](flaq-ai-api-guide.md) · [15-language directory](../prompts/i18n/README.md)
+[Home](../README.md) · [100 prompt recipes](../prompts/README.md) · [Flaq AI workflow](flaq-ai-api-guide.md) · [15-language directory](../prompts/i18n/README.md)
 
 A useful video prompt is a production brief with testable instructions. It tells the model what to preserve, what changes over time, how the camera observes it, what should be heard, and what makes the result unacceptable.
 
@@ -180,4 +180,4 @@ Must avoid: [specific invalidating failures]
 Final frame: [composition and negative space]
 ```
 
-Start with the [72-scene prompt finder](../prompts/README.md), then adapt the closest recipe instead of writing from a blank page.
+Start with the [100-prompt finder](../prompts/README.md), then adapt the closest recipe instead of writing from a blank page.

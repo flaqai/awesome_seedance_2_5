@@ -2,12 +2,14 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [Tutte le 15 lingue](prompts/i18n/README.md)
 
-Questo repository raccoglie **72 ricette video originali per Seedance 2.5** e supporta **15 lingue**: 60 scene generali e 12 workflow professionali in inglese.
+Questo repository raccoglie **100 ricette video originali per Seedance 2.5** e supporta **15 lingue**: 60 scene generali e 40 workflow professionali in inglese.
+
+Condividi un prompt originale e testato tramite il [modulo di contribuzione](https://github.com/flaqai/awesome_seedance_2_5/issues/new?template=prompt.yml), includendo impostazioni, input e risultato reale. I contributi approvati possono essere pubblicati con attribuzione dopo la revisione.
 
 ## Inizia subito
 
 - Copia i [6 prompt completi in italiano](prompts/i18n/prompt-library.it.md).
-- Cerca una base nell'[indice di 72 scene](prompts/README.md).
+- Cerca una base nell'[indice di 100 scene](prompts/README.md).
 - Migliora camera, ritmo, audio e continuità con la [guida avanzata](docs/prompting-guide.md).
 - Scegli su Flaq AI tra [Text-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/) e [Image-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/).
 

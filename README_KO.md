@@ -2,12 +2,14 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [15개 언어 전체](prompts/i18n/README.md)
 
-이 저장소는 **72개의 독창적인 Seedance 2.5 영상 프롬프트**와 **15개 언어 지원**을 제공합니다. 일반 장면 60개와 SaaS, 이커머스, 교육, 접근성, 엔터테인먼트용 영어 전문 워크플로 12개로 구성됩니다.
+이 저장소는 **100개의 독창적인 Seedance 2.5 영상 프롬프트**와 **15개 언어 지원**을 제공합니다. 일반 장면 60개와 편집, 튜토리얼, 다중 참조, 장편, 이커머스, 교육, 접근성용 영어 워크플로 40개로 구성됩니다.
+
+직접 테스트한 독창적인 Prompt는 설정, 입력 자료, 실제 결과와 함께 [기여 양식](https://github.com/flaqai/awesome_seedance_2_5/issues/new?template=prompt.yml)으로 공유할 수 있습니다. 승인된 내용은 검토 후 기여자 표시와 함께 수록될 수 있습니다.
 
 ## 빠른 시작
 
 - 바로 복사할 수 있는 [한국어 완성 프롬프트 6개](prompts/i18n/prompt-library.ko.md)를 사용하세요.
-- [72개 장면 인덱스](prompts/README.md)에서 목적에 맞는 예시를 찾으세요.
+- [100개 장면 인덱스](prompts/README.md)에서 목적에 맞는 예시를 찾으세요.
 - 카메라, 시간 구성, 사운드, 일관성은 [고급 프롬프트 가이드](docs/prompting-guide.md)를 참고하세요.
 - Flaq AI의 [Text-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/) 또는 [Image-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)를 선택하세요.
 

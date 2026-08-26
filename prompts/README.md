@@ -1,8 +1,8 @@
-# Seedance 2.5 Prompt Library Index：72 个场景与多语言版本
+# Seedance 2.5 Prompt Library Index：100 个场景与多语言版本
 
 [English Guide](../README.md) · [中文指南](../README_ZH.md) · [在线使用 Seedance 2.5](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/) · [多语言目录](i18n/README.md)
 
-本目录提供 **72 个原创 Seedance 2.5 完整提示词**、独立语言文件和本地化规范。其中 60 个中文基础与扩展场景覆盖通用创作，新增 12 个英文专业工作流服务 SaaS、创作者、电商、教育、无障碍和娱乐项目。
+本目录提供 **100 个原创 Seedance 2.5 完整提示词**、独立语言文件和本地化规范。其中 60 个中文基础与扩展场景覆盖通用创作，40 个英文工作流进一步覆盖多参考绑定、节拍剪辑、教程、视频编辑、数字人、批量 SKU、长视频衔接、延长与白模预演。
 
 ## 内容文件
 
@@ -11,10 +11,11 @@
 | [基础场景库](prompt-library.md) | 24 | 电影、产品、UGC、动画、运动、声音、图生视频控制、专业制作 |
 | [扩展场景库](extended-scenarios.md) | 36 | 品牌、电商、时尚、VFX、UI、喜剧、教育、建筑、交通、自然、工业、酒店 |
 | [英文专业工作流](advanced-workflows.en.md) | 12 | SaaS、创作者课程、家具、珠宝、餐饮、博物馆、能源、医疗入口、播客、物流、无障碍、游戏 |
+| [英文创作技法库](creative-techniques.en.md) | 28 | Match Cut、一镜到底、多参考、教程、局部编辑、批量生产、长视频、延长、白模 |
 | [多语言 prompts](i18n/README.md) | 15 种语言 | 14 份独立外语文件，可直接复制 |
 | [多语言单场景对照](multilingual-pack.md) | 8 种语言 | 用同一场景对比不同语言的表达结构 |
 
-## 72 个提示词快速索引
+## 100 个提示词快速索引
 
 ### 电影、产品与创作者内容
 
@@ -103,13 +104,46 @@
 | 71 | Accessible event welcome | Accessibility | [Advanced workflows](advanced-workflows.en.md#71-accessible-live-event-welcome-film) |
 | 72 | Original indie game reveal | Game / Animation | [Advanced workflows](advanced-workflows.en.md#72-original-indie-game-world-reveal) |
 
+### 多参考、编辑与高级创作技法
+
+| ID | Scene | Category | File |
+|---:|---|---|---|
+| 73 | Modular lamp match-cut identity film | Match cut / Multi-reference | [Creative techniques](creative-techniques.en.md#73-modular-lamp-match-cut-identity-film) |
+| 74 | One take through four working worlds | One-take | [Creative techniques](creative-techniques.en.md#74-one-take-through-four-working-worlds) |
+| 75 | Modular lamp assembly tutorial | Tutorial / Multi-image | [Creative techniques](creative-techniques.en.md#75-modular-lamp-assembly-tutorial) |
+| 76 | Botanical cracker rhythm ad | Multimodal ad | [Creative techniques](creative-techniques.en.md#76-four-flavor-botanical-cracker-rhythm-ad) |
+| 77 | Remove temporary street signage | Local video edit | [Creative techniques](creative-techniques.en.md#77-remove-temporary-signage-from-a-street-clip) |
+| 78 | Change tram-platform weather | Video edit | [Creative techniques](creative-techniques.en.md#78-change-only-the-weather-on-a-tram-platform) |
+| 79 | Six-color organizer SKU batch | Batch ecommerce | [Creative techniques](creative-techniques.en.md#79-six-color-desk-organizer-sku-batch) |
+| 80 | Honest travel-kettle livestream | Livestream / Product | [Creative techniques](creative-techniques.en.md#80-honest-livestream-demonstration-of-a-travel-kettle) |
+| 81 | Multilingual museum guide | Digital presenter | [Creative techniques](creative-techniques.en.md#81-multilingual-museum-guide-in-five-deliverables) |
+| 82 | Hand-grinder setup guide | Reference tutorial | [Creative techniques](creative-techniques.en.md#82-precision-hand-grinder-setup-guide) |
+| 83 | Financial-app presenter | Presenter / UI | [Creative techniques](creative-techniques.en.md#83-financial-app-presenter-without-advice-or-claims) |
+| 84 | Suspension-bridge wind explainer | Education | [Creative techniques](creative-techniques.en.md#84-why-a-suspension-bridge-moves-in-wind) |
+| 85 | Digestive-system classroom animation | Science / Health | [Creative techniques](creative-techniques.en.md#85-neutral-digestive-system-classroom-animation) |
+| 86 | Payment-form museum history | Museum / Explainer | [Creative techniques](creative-techniques.en.md#86-from-shell-tokens-to-contactless-payment) |
+| 87 | Robot visual-inspection cell | Industry / Robotics | [Creative techniques](creative-techniques.en.md#87-collaborative-robot-visual-inspection-cell) |
+| 88 | Warehouse inventory drone FPV | Previs / Industrial | [Creative techniques](creative-techniques.en.md#88-warehouse-inventory-drone-fpv-training-preview) |
+| 89 | Robot-picking dataset variations | Synthetic data | [Creative techniques](creative-techniques.en.md#89-synthetic-robot-picking-dataset-variations) |
+| 90 | Accessible shuttle walkthrough | Mobility / Accessibility | [Creative techniques](creative-techniques.en.md#90-electric-shuttle-interior-accessibility-walkthrough) |
+| 91 | Floor plan to furnished studio | Real estate | [Creative techniques](creative-techniques.en.md#91-floor-plan-to-honest-furnished-studio) |
+| 92 | Community lantern workshop | Seasonal / Community | [Creative techniques](creative-techniques.en.md#92-community-lantern-workshop-seasonal-film) |
+| 93 | Rabbit night-train conductor | Original character | [Creative techniques](creative-techniques.en.md#93-tiny-rabbit-night-train-conductor) |
+| 94 | Wheelchair basketball reference | Sports / Motion | [Creative techniques](creative-techniques.en.md#94-wheelchair-basketball-motion-reference) |
+| 95 | Five-language a cappella greeting | Music / Lip sync | [Creative techniques](creative-techniques.en.md#95-five-language-a-cappella-greeting-film) |
+| 96 | Six-chapter coastal radio mystery | Long-form chain | [Creative techniques](creative-techniques.en.md#96-six-chapter-coastal-radio-mystery) |
+| 97 | Extend a bicycle repair scene | Video extension | [Creative techniques](creative-techniques.en.md#97-extend-a-bicycle-repair-scene-by-ten-seconds) |
+| 98 | Replace a package color region | Region edit | [Creative techniques](creative-techniques.en.md#98-replace-only-a-blank-package-color-region) |
+| 99 | White-model café to final materials | White-model previs | [Creative techniques](creative-techniques.en.md#99-white-model-café-blocking-to-final-materials) |
+| 100 | Product campaign storyboard | Storyboard / Multi-image | [Creative techniques](creative-techniques.en.md#100-reference-board-product-campaign-storyboard) |
+
 ## 多语言覆盖
 
-每个语言文件包含 6 个完整、可复制的代表性 prompts，而不是只翻译标题。中文基础与扩展库提供 60 个场景，英文专业工作流另提供 12 个场景。
+每个语言文件包含 6 个完整、可复制的代表性 prompts，而不是只翻译标题。中文基础与扩展库提供 60 个场景，英文专业与创作技法库另提供 40 个场景。
 
 | 语言 | 文件 | 本地名称 |
 |---|---|---|
-| 简体中文 | [72 个场景总索引](README.md) | 简体中文 |
+| 简体中文 | [100 个场景总索引](README.md) | 简体中文 |
 | 繁體中文 | [prompt-library.zh-TW.md](i18n/prompt-library.zh-TW.md) | 繁體中文 |
 | English | [prompt-library.en.md](i18n/prompt-library.en.md) | English |
 | 日本語 | [prompt-library.ja.md](i18n/prompt-library.ja.md) | 日本語 |

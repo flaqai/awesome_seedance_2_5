@@ -1,0 +1,124 @@
+name: Submit a Seedance 2.5 Prompt
+description: Share an original, tested prompt and its generated result
+title: "[Prompt]: "
+labels:
+  - prompt-submission
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Share a useful Seedance 2.5 workflow
+
+        Thank you for contributing. Submit one prompt per issue. Strong submissions include the complete prompt, generation mode, settings, input roles, a real output, and permission to publish the material under this repository's license.
+
+        Never include API keys, access tokens, private links, personal data, or assets you do not have permission to share.
+
+  - type: input
+    id: title
+    attributes:
+      label: Prompt title
+      description: Use a specific, searchable title that describes the outcome.
+      placeholder: "Example: Foldable lamp four-beat product film"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Generation mode
+      options:
+        - Text-to-video
+        - Image-to-video
+        - Multi-reference video
+        - Video editing
+        - Video extension
+        - Storyboard or previs
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: category
+    attributes:
+      label: Category and use case
+      description: State the audience or production goal, not only a visual style.
+      placeholder: "Ecommerce / product assembly tutorial"
+    validations:
+      required: true
+
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Complete prompt
+      description: Include reference roles, ordered action or timecodes, camera, audio, continuity, and specific exclusions where relevant.
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: settings
+    attributes:
+      label: Model and settings
+      description: Include model/provider, duration, aspect ratio, resolution, sound choice, seed when available, and anything needed to reproduce the test.
+      placeholder: |
+        Model/provider:
+        Duration:
+        Aspect ratio:
+        Resolution:
+        Sound:
+        Seed:
+    validations:
+      required: true
+
+  - type: textarea
+    id: assets
+    attributes:
+      label: Input assets and their roles
+      description: Drag and drop authorized reference images or video frames, or link to public files. List them in upload order and give each one a single job. Write “None” for text-to-video.
+      placeholder: |
+        Image 1 — product identity and geometry
+        Image 2 — environment and lighting only
+    validations:
+      required: true
+
+  - type: textarea
+    id: output
+    attributes:
+      label: Generated result
+      description: Drag and drop the generated video, GIF, or screenshots, or provide a stable public preview link. The result must come from the submitted prompt.
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: What worked, failed, or changed
+      description: Briefly note what the prompt controls well, known failure modes, and any iterations made after the first test.
+    validations:
+      required: true
+
+  - type: input
+    id: author
+    attributes:
+      label: Author or display name
+      placeholder: "Your name or @handle"
+    validations:
+      required: true
+
+  - type: input
+    id: author_link
+    attributes:
+      label: Author profile (optional)
+      placeholder: "https://..."
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Rights and publication confirmation
+      options:
+        - label: I created or am authorized to share the prompt, inputs, and output, and they may be published in this repository under its license with attribution.
+          required: true
+        - label: The submission contains no secrets, private data, unauthorized likenesses, unlicensed media, copied prompt text, protected characters, or undisclosed affiliate links.
+          required: true
+        - label: I understand that maintainers may edit wording, metadata, formatting, and safety constraints or decline the submission.
+          required: true

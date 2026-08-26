@@ -1,6 +1,6 @@
 # Prompt Seedance 2.5 — Bản tiếng Việt
 
-[Tất cả ngôn ngữ](README.md) · [Mục lục 72 cảnh](../README.md) · [Seedance 2.5 trên Flaq AI](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[Tất cả ngôn ngữ](README.md) · [Mục lục 100 cảnh](../README.md) · [Seedance 2.5 trên Flaq AI](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 Sáu prompt tiếng Việt hoàn chỉnh cho quy trình image-to-video và reference-to-video, bao gồm vai trò tư liệu, chỉ đạo máy quay, âm thanh, tính nhất quán và điều cấm.
 

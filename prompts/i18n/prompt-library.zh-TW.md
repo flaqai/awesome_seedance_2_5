@@ -1,6 +1,6 @@
 # Seedance 2.5 提示詞 — 繁體中文
 
-[所有語言](README.md) · [72 場景索引](../README.md) · [線上使用](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[所有語言](README.md) · [100 場景索引](../README.md) · [線上使用](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 ## I18N-01 無品牌氣泡茶揭曉
 

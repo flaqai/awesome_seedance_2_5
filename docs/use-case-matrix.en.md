@@ -1,6 +1,6 @@
 # Seedance 2.5 Use-Case and Prompt Finder
 
-[Home](../README.md) · [72 prompt recipes](../prompts/README.md) · [Prompting guide](prompting-guide.md) · [Flaq AI workflow](flaq-ai-api-guide.md)
+[Home](../README.md) · [100 prompt recipes](../prompts/README.md) · [Prompting guide](prompting-guide.md) · [Flaq AI workflow](flaq-ai-api-guide.md)
 
 Choose a business goal first, then narrow the prompt by available assets, delivery format, and first-pass quality checks.
 
@@ -38,6 +38,8 @@ Choose a business goal first, then narrow the prompt by available assets, delive
 | Original entertainment concept | 72 indie game reveal | Character silhouette, level geography, reference separation, no franchise resemblance |
 
 ## Choose by available input
+
+For match cuts, multi-reference tutorials, local edits, batch SKU generation, digital presenters, long-form chaining, video extension, region edits, and white-model rendering, browse [Creative Techniques 73–100](../prompts/creative-techniques.en.md).
 
 | What you have | Start with | Prompt strategy |
 |---|---|---|

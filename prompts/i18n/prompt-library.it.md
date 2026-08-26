@@ -1,6 +1,6 @@
 # Prompt Seedance 2.5 — Edizione italiana
 
-[Tutte le lingue](README.md) · [Indice di 72 scene](../README.md) · [Seedance 2.5 su Flaq AI](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[Tutte le lingue](README.md) · [Indice di 100 scene](../README.md) · [Seedance 2.5 su Flaq AI](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 Sei prompt completi in italiano per flussi image-to-video e reference-to-video. Ogni ricetta definisce riferimenti, regia, suono, continuità e vincoli negativi.
 

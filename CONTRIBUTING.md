@@ -2,6 +2,21 @@
 
 Thanks for helping make the library more practical, multilingual, and original. Contributions should add a real production workflow or improve an existing recipe in a testable way.
 
+## Fastest way to contribute
+
+Use the [guided Prompt Submission form](https://github.com/flaqai/awesome_seedance_2_5/issues/new?template=prompt.yml) for one tested prompt. It asks for the information maintainers need to review the result without requiring you to edit repository files.
+
+Please include:
+
+- one complete prompt and a specific, searchable title;
+- generation mode, provider/model, duration, aspect ratio, sound choice, and seed when available;
+- every input asset in upload order, with one explicit role per asset;
+- the real generated video, GIF, screenshots, or a stable preview link;
+- a short note about what worked, what failed, and what changed during iteration;
+- the author name or handle that should receive attribution.
+
+If you are contributing several prompts, a new language pack, documentation, or structural changes, open a pull request instead. Keep each submission reviewable and avoid mixing unrelated changes.
+
 ## What makes a useful contribution
 
 - a complete prompt for a distinct business, creative, education, accessibility, or production scenario;
@@ -55,5 +70,9 @@ A submission should be directly usable after replacing only project-specific sub
 - Verify headings and IDs against the master index.
 - Update prompt, scene, and language counts where relevant.
 - Read the prompt once as a director and once as a reviewer: every important instruction should be observable in the output.
+
+## Review and attribution
+
+Submissions are reviewed for usefulness, reproducibility, originality, rights, safety, clarity, and fit with the library. Maintainers may normalize formatting, tighten constraints, change metadata, request evidence, merge overlapping scenarios, or decline material that cannot be verified. Accepted community prompts should retain the contributor's chosen display name and source link where provided.
 
 By contributing, you agree that your contribution may be distributed under this repository's [MIT License](LICENSE).

@@ -1,6 +1,6 @@
 # Original Image Prompt Notes
 
-These four visual assets were newly generated for this repository. They are designed as attractive README illustrations and as practical first-frame references for image-to-video tests. No source image from another prompt collection was used.
+These five visual assets were newly generated for this repository. They are designed as attractive README illustrations and as practical references for image-to-video tests. No source image from another prompt collection was used.
 
 ## `seedance-2-5-prompt-guide-hero.png`
 
@@ -36,4 +36,17 @@ Final cleanup instruction:
 
 ```text
 Remove the small bottom-right symbol and restore the natural tabletop and window-edge texture while preserving the fox, sketchbook, lamp, rainy window, cup, lighting, composition, crop, colors, shadows, and mixed-media style.
+```
+
+## `modular-lamp-reference-board.png`
+
+```text
+Create one seamless square contact sheet divided into four equal cinematic panels, each panel a standalone reference image for an original eco-friendly modular desk-lamp campaign; no borders with text, labels, or logos.
+
+Panel 1: clean three-quarter product photograph of an unbranded modular desk lamp, matte warm-white aluminum cylindrical base, slender vertical stem, small oval light head, one visible brass adjustment ring, pale stone tabletop, neutral studio background.
+Panel 2: macro product detail of the same lamp's brass adjustment ring and precise hinge, brushed metal texture, shallow depth of field.
+Panel 3: the same lamp illuminating an architect's paper model in a calm midnight-blue home studio, realistic pool of warm light, no person visible.
+Panel 4: the same lamp folded flat into compact travel position beside a plain recycled-paper sleeve, exact product geometry preserved.
+
+Premium photorealistic commercial product photography. Exact 2×2 grid. Keep the identical lamp shape, part count, proportions, warm-white finish, oval head, cylindrical base, and single brass ring in all panels. Soft studio light in Panels 1, 2, and 4; warm practical light against cool night ambience in Panel 3. No text, numbers, labels, logos, trademarks, watermark, people, duplicate products within a panel, warped geometry, extra hinges, or impossible shadows.
 ```

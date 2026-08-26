@@ -1,6 +1,6 @@
 # مطالبات Seedance 2.5 — العربية
 
-[جميع اللغات](README.md) · [فهرس 72 مشهداً](../README.md) · [الاستخدام عبر الإنترنت](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[جميع اللغات](README.md) · [فهرس 100 مشهد](../README.md) · [الاستخدام عبر الإنترنت](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 > اتجاه النص من اليمين إلى اليسار، لكن اتجاه حركة الكاميرا يبقى كما هو موصوف ولا يُعكس تلقائياً.
 

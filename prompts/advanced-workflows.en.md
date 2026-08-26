@@ -1,6 +1,6 @@
 # Seedance 2.5 Advanced Workflows — 12 English Prompt Recipes
 
-[Home](../README.md) · [72-scene index](README.md) · [Prompting guide](../docs/prompting-guide.md) · [Use Seedance 2.5 on Flaq AI](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/)
+[Home](../README.md) · [100-prompt index](README.md) · [Prompting guide](../docs/prompting-guide.md) · [Use Seedance 2.5 on Flaq AI](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/)
 
 Twelve original, copy-ready prompts for commercial, creator, education, accessibility, UI, and entertainment workflows. Replace bracketed details, preserve the production structure, and review every generated claim and asset before publication.
 
