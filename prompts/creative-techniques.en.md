@@ -1,6 +1,6 @@
 # Seedance 2.5 Creative Techniques — 28 Original Production Prompts
 
-[Home](../README.md) · [100-prompt index](README.md) · [Prompting guide](../docs/prompting-guide.md) · [Submit a prompt](https://github.com/flaqai/awesome_seedance_2_5/issues/new?template=prompt.yml)
+[Home](../README.md) · [120-prompt index](README.md) · [Prompting guide](../docs/prompting-guide.md) · [Submit a prompt](https://github.com/flaqai/awesome_seedance_2_5/issues/new?template=prompt.yml)
 
 This collection expands the library with original prompts for match cuts, one-takes, multi-reference control, tutorials, video editing, digital presenters, batch product work, long-form planning, and production previs. The scenarios are newly written and use fictional, unbranded subjects.
 

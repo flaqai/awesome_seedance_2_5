@@ -1,6 +1,6 @@
 # Prompts Seedance 2.5 — Français
 
-[Toutes les langues](README.md) · [Index des 100 scènes](../README.md) · [Utiliser en ligne](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[Toutes les langues](README.md) · [Index des 120 scènes](../README.md) · [Utiliser en ligne](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 ## I18N-01 Publicité pour un thé pétillant sans marque
 

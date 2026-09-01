@@ -3,7 +3,7 @@
 [![Seedance 2.5](https://img.shields.io/badge/Seedance-2.5-6C5CE7)](https://seed.bytedance.com/en/seedance2_5)
 [![Text to Video](https://img.shields.io/badge/Text--to--Video-Flaq%20AI-5C7CFA)](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/)
 [![Image to Video](https://img.shields.io/badge/Image--to--Video-Flaq%20AI-FF7A59)](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
-[![Prompts](https://img.shields.io/badge/Prompts-100-blue.svg)](prompts/README.md)
+[![Prompts](https://img.shields.io/badge/Prompts-120-blue.svg)](prompts/README.md)
 [![欢迎贡献](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -11,9 +11,9 @@
 
 ![Seedance 2.5 提示词指南原创封面](assets/seedance-2-5-prompt-guide-hero.png)
 
-这是一个面向 **Seedance 2.5 文生视频、图生视频、多参考控制、视频编辑与延长** 的原创提示词库，现已收录 **100 个完整实用场景、15 种语言支持和 14 份独立外语 prompts 文件**。其中包含 60 个中文通用场景与 40 个英文专业及创作技法工作流，覆盖电影叙事、节拍剪辑、一镜到底、品牌广告、电商、UGC、教程、数字人、批量 SKU、长视频、教育、房地产、交通、工业、无障碍、局部编辑、绿幕与白模预演。
+这是一个面向 **Seedance 2.5 文生视频、图生视频、多参考控制、视频编辑与延长** 的原创提示词库，现已收录 **120 个完整实用场景、15 种语言支持和 14 份独立外语 prompts 文件**。其中包含 60 个中文通用场景与 60 个英文专业及创作工作流，覆盖电影叙事、节拍剪辑、一镜到底、品牌广告、电商、UGC、社媒喜剧、动态海报、原创动画、材质变形、教程、数字人、批量 SKU、长视频、教育、无障碍、局部编辑、绿幕与白模预演。
 
-| [浏览 100 个 Prompts](prompts/README.md) | [提交你的 Prompt](https://github.com/flaqai/awesome_seedance_2_5/issues/new?template=prompt.yml) | [贡献指南](CONTRIBUTING.md) | [Prompt 写作教程](docs/prompting-guide.md) | [在 Flaq AI 生成](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/) |
+| [浏览 120 个 Prompts](prompts/README.md) | [提交你的 Prompt](https://github.com/flaqai/awesome_seedance_2_5/issues/new?template=prompt.yml) | [贡献指南](CONTRIBUTING.md) | [Prompt 写作教程](docs/prompting-guide.md) | [在 Flaq AI 生成](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/) |
 |---|---|---|---|---|
 
 ## 欢迎提交原创 Prompt
@@ -105,7 +105,7 @@
 ## 快速开始
 
 1. 准备一张干净、主体轮廓清晰、光源明确的起始图。
-2. 从下方场景或[100 个提示词总索引](prompts/README.md)复制最接近的模板。
+2. 从下方场景或[120 个提示词总索引](prompts/README.md)复制最接近的模板。
 3. 先替换主体、动作、场景、画幅与结尾，不要一次重写所有摄影术语。
 4. 根据素材选择 Flaq AI 的 [Text-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/) 或 [Image-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)，再粘贴提示词。
 5. 首轮先验证身份、动作和空间逻辑，再追加复杂运镜、对白或特效。
@@ -207,7 +207,7 @@
 
 ## 完整场景库
 
-[**打开 100 个可复制的 Seedance 2.5 原创提示词总索引 →**](prompts/README.md)
+[**打开 120 个可复制的 Seedance 2.5 原创提示词总索引 →**](prompts/README.md)
 
 | 内容包 | 数量 | 覆盖范围 |
 |---|---:|---|
@@ -215,10 +215,11 @@
 | [扩展场景库](prompts/extended-scenarios.md) | 36 | 品牌、电商、时尚、VFX、UI、喜剧、教育、建筑、交通、自然、工业、酒店 |
 | [英文专业工作流](prompts/advanced-workflows.en.md) | 12 | SaaS、创作者、家具、珠宝、餐饮、博物馆、能源、医疗入口、播客、物流、无障碍、游戏 |
 | [英文创作技法库](prompts/creative-techniques.en.md) | 28 | Match Cut、一镜到底、多参考、教程、编辑、数字人、批量 SKU、长视频、延长、白模 |
+| [英文类型片、社媒与视觉实验](prompts/genre-social-experiments.en.md) | 20 | 类型片、受控车辆拍摄、社媒喜剧、声音同步、动态海报、原创动画、材质变形 |
 | [独立多语言 prompts](prompts/i18n/README.md) | 14 份 | 繁中、英、日、韩、西、法、德、葡、阿、俄、印尼、意大利、泰、越南语 |
 | [使用场景选择矩阵](docs/use-case-matrix.md) | 18 类目标 | 按业务、素材、渠道与画幅快速选择模板 |
 
-新增场景包括真实小户型导览、湿地科普、台钻安全培训、载货电助力自行车、配送机器人、宠物雨衣、冷链追踪、无障碍动线、商品 360 度旋转、UI 操作演示、三画幅广告适配和展位搭建等，可直接用于商业、教育与专业制作工作流。
+新增场景包括封闭赛道雨战、模拟太空维修、古代水利重建、火星取样、打击乐音画同步、镜像延迟喜剧、无障碍换装、动态海报、运动参考迁移、原创动画和材质变形等，可直接用于类型短片、社媒、商业、教育与专业制作工作流。
 
 ## 图生视频技巧
 
@@ -258,7 +259,7 @@ Seedance 2.5 可使用自然语言描述。仓库提供简体中文主库，以�
 
 | 语言 | Prompts 文件 | 语言 | Prompts 文件 |
 |---|---|---|---|
-| 简体中文 | [100 场景总索引](prompts/README.md) | 繁體中文 | [繁中 prompts](prompts/i18n/prompt-library.zh-TW.md) |
+| 简体中文 | [120 场景总索引](prompts/README.md) | 繁體中文 | [繁中 prompts](prompts/i18n/prompt-library.zh-TW.md) |
 | English | [English prompts](prompts/i18n/prompt-library.en.md) | 日本語 | [日本語 prompts](prompts/i18n/prompt-library.ja.md) |
 | 한국어 | [한국어 prompts](prompts/i18n/prompt-library.ko.md) | Español | [Prompts en español](prompts/i18n/prompt-library.es.md) |
 | Français | [Prompts français](prompts/i18n/prompt-library.fr.md) | Deutsch | [Deutsche Prompts](prompts/i18n/prompt-library.de.md) |

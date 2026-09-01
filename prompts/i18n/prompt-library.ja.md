@@ -1,6 +1,6 @@
 # Seedance 2.5 プロンプト — 日本語版
 
-[全言語](README.md) · [100シーン索引](../README.md) · [オンラインで使用](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[全言語](README.md) · [120シーン索引](../README.md) · [オンラインで使用](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 ## I18N-01 ノーブランド炭酸ティーの商品映像
 

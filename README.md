@@ -1,10 +1,10 @@
-# Awesome Seedance 2.5 Prompts: 100 Video Prompt Recipes in 15 Languages
+# Awesome Seedance 2.5 Prompts: 120 Video Prompt Recipes in 15 Languages
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Seedance 2.5](https://img.shields.io/badge/Seedance-2.5-6C5CE7)](https://seed.bytedance.com/en/seedance2_5)
 [![Text to Video](https://img.shields.io/badge/Text--to--Video-Flaq%20AI-5C7CFA)](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/)
 [![Image to Video](https://img.shields.io/badge/Image--to--Video-Flaq%20AI-FF7A59)](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
-[![Prompts](https://img.shields.io/badge/Prompts-100-blue.svg)](prompts/README.md)
+[![Prompts](https://img.shields.io/badge/Prompts-120-blue.svg)](prompts/README.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -12,9 +12,9 @@
 
 ![Original Seedance 2.5 prompt guide hero](assets/seedance-2-5-prompt-guide-hero.png)
 
-An original, production-oriented library of **100 complete Seedance 2.5 video prompts with support for 15 languages**. Find copy-ready recipes for text-to-video, image-to-video, multi-reference control, local video editing, extension, synchronized sound, match cuts, tutorials, digital presenters, batch SKU production, long-form chaining, green screen, white-model previs, advertising, ecommerce, education, and cinematic storytelling.
+An original, production-oriented library of **120 complete Seedance 2.5 video prompts with support for 15 languages**. Find copy-ready recipes for text-to-video, image-to-video, multi-reference control, local video editing, extension, synchronized sound, match cuts, tutorials, digital presenters, batch SKU production, long-form chaining, green screen, white-model previs, advertising, ecommerce, genre filmmaking, social video, original animation, visual experiments, education, and cinematic storytelling.
 
-| [Browse 100 prompts](prompts/README.md) | [Submit your prompt](https://github.com/flaqai/awesome_seedance_2_5/issues/new?template=prompt.yml) | [Contribution guide](CONTRIBUTING.md) | [Prompting guide](docs/prompting-guide.md) | [Generate with Flaq AI](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/) |
+| [Browse 120 prompts](prompts/README.md) | [Submit your prompt](https://github.com/flaqai/awesome_seedance_2_5/issues/new?template=prompt.yml) | [Contribution guide](CONTRIBUTING.md) | [Prompting guide](docs/prompting-guide.md) | [Generate with Flaq AI](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/) |
 |---|---|---|---|---|
 
 ## Share your Seedance 2.5 prompt
@@ -38,11 +38,12 @@ We especially welcome multilingual prompts, real business workflows, accessibili
 
 | If you need… | Start here |
 |---|---|
-| One proven prompt to customize | [100-prompt master index](prompts/README.md) |
+| One proven prompt to customize | [120-prompt master index](prompts/README.md) |
 | A product, ad, UGC, or creator-video recipe | [Foundation prompts 04–09](prompts/prompt-library.md) |
 | UI, education, real estate, mobility, pet, or industry content | [Extended prompts 37–60](prompts/extended-scenarios.md) |
 | SaaS, creator, jewelry, culture, clean-energy, accessibility, or game content | [Advanced English workflows 61–72](prompts/advanced-workflows.en.md) |
 | Match cuts, one-takes, tutorials, video edits, batch SKUs, digital presenters, extension, or previs | [Creative techniques 73–100](prompts/creative-techniques.en.md) |
+| Genre films, safe vehicle shots, social comedy, audio sync, original animation, dynamic posters, or material morphs | [Genre, social & visual experiments 101–120](prompts/genre-social-experiments.en.md) |
 | A prompt in your preferred language | [15-language prompt directory](prompts/i18n/README.md) |
 | Help choosing by business goal or available asset | [English use-case matrix](docs/use-case-matrix.en.md) |
 | Better camera, timing, sound, continuity, or negative constraints | [Advanced prompting guide](docs/prompting-guide.md) |
@@ -50,10 +51,18 @@ We especially welcome multilingual prompts, real business workflows, accessibili
 
 ### What is included
 
-- **100 full recipes**, not one-line prompt fragments: each includes mode, references, timeline, camera, sound, continuity, and exclusions. The core 60-scene catalog is in Simplified Chinese, with 40 additional professional and creative-technique workflows in English.
+- **120 full recipes**, not one-line prompt fragments: each includes mode, references, timeline, camera, sound, continuity, and exclusions. The core 60-scene catalog is in Simplified Chinese, with 60 additional professional, creative-technique, genre, social, and visual-experiment workflows in English.
 - **15-language support**, including 14 independent localized prompt files with six complete shared test scenes in each language.
 - **20+ practical categories** for brand, ecommerce, UGC, travel, food, fashion, beauty, cinematic, animation, sports, fantasy, VFX, UI, social, education, architecture, mobility, nature, industry, and hospitality workflows.
 - **Production guidance** for prompt debugging, aspect-ratio planning, reference ownership, final-frame design, rights review, and iteration records.
+
+## New Seedance 2.5 prompts for genre films, social video, and visual experiments
+
+Prompts 101–120 turn popular creative patterns into production-safe, original briefs: closed-course motorsport, analog drama, orbital science, fantasy flight, natural-history reconstruction, percussion sync, vertical comedy, accessible fashion, motion-reference transfer, original animation, workplace short drama, and material morphing.
+
+![Original nine-panel night garden storyboard for Prompt 115](assets/night-garden-storyboard.png)
+
+The image above was generated specifically for [Prompt 115: Night Garden Dynamic Event Poster](prompts/genre-social-experiments.en.md#115-night-garden-dynamic-event-poster). Its nine panels are cumulative keyframes rather than copied frames, and the full reusable generation brief is documented in [Original Image Prompt Notes](assets/IMAGE_PROMPTS.md).
 
 ## What makes a strong Seedance 2.5 prompt?
 
@@ -118,7 +127,7 @@ Audio: rain, paper folds, wood contact, and minimal glockenspiel. No extra anima
 
 ## Full prompt library
 
-Open the [100-prompt master index](prompts/README.md), the [24-scene foundation library](prompts/prompt-library.md), the [36-scene extended library](prompts/extended-scenarios.md), the [12 advanced English workflows](prompts/advanced-workflows.en.md), or the [28 creative-technique prompts](prompts/creative-techniques.en.md). Use the [English use-case matrix](docs/use-case-matrix.en.md) to filter by goal and input asset. Together they cover:
+Open the [120-prompt master index](prompts/README.md), the [24-scene foundation library](prompts/prompt-library.md), the [36-scene extended library](prompts/extended-scenarios.md), the [12 advanced English workflows](prompts/advanced-workflows.en.md), the [28 creative-technique prompts](prompts/creative-techniques.en.md), or the [20 genre, social, and visual-experiment prompts](prompts/genre-social-experiments.en.md). Use the [English use-case matrix](docs/use-case-matrix.en.md) to filter by goal and input asset. Together they cover:
 
 - cinematic drama and science fiction;
 - product, skincare, beverage, and wearable ads;
@@ -130,6 +139,7 @@ Open the [100-prompt master index](prompts/README.md), the [24-scene foundation 
 - green screen, white-model previs, reference camera paths, and precise editing.
 - SaaS launches, creator courses, assembly proof, jewelry, museums, clean energy, telehealth onboarding, podcasts, logistics UI, accessibility, and original game concepts.
 - object-centered match cuts, continuous room transitions, multi-reference tutorials, local edits, SKU batches, multilingual presenters, motion transfer, long-form chaining, extension, region editing, and white-model-to-final rendering.
+- safe genre filmmaking, analog memory shorts, space and archaeology explainers, social mockumentaries, dialogue memes, accessible fashion transitions, dynamic posters, original duel and mecha animation, and controlled material morphs.
 
 ### Complete prompt files in more languages
 
@@ -182,6 +192,7 @@ New original scenarios, careful localizations, accessibility improvements, and r
 - [Seedance 2.5 Text-to-Video on Flaq AI](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/)
 - [Seedance 2.5 Image-to-Video on Flaq AI](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 - [Official Seedance 2.0 launch notes](https://seed.bytedance.com/en/blog/seedance-2-0-official-launch)
+- [ZeroLu/awesome-seedance](https://github.com/ZeroLu/awesome-seedance) — reviewed for broad use-case discovery; no prompt text, branded example, named style, or visual asset was copied.
 
 All prompts, scenarios, explanatory copy, and images in this repository were newly created for this collection. The examples avoid celebrity likenesses, third-party brand slogans, and protected fictional characters. Review generated output for copyright, likeness, trademark, audio, safety, and platform-policy compliance before commercial use.
 

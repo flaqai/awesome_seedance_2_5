@@ -1,6 +1,6 @@
 # Original Image Prompt Notes
 
-These five visual assets were newly generated for this repository. They are designed as attractive README illustrations and as practical references for image-to-video tests. No source image from another prompt collection was used.
+These six visual assets were newly generated for this repository. They are designed as attractive README illustrations and as practical references for image-to-video tests. No source image from another prompt collection was used.
 
 ## `seedance-2-5-prompt-guide-hero.png`
 
@@ -49,4 +49,14 @@ Panel 3: the same lamp illuminating an architect's paper model in a calm midnigh
 Panel 4: the same lamp folded flat into compact travel position beside a plain recycled-paper sleeve, exact product geometry preserved.
 
 Premium photorealistic commercial product photography. Exact 2×2 grid. Keep the identical lamp shape, part count, proportions, warm-white finish, oval head, cylindrical base, and single brass ring in all panels. Soft studio light in Panels 1, 2, and 4; warm practical light against cool night ambience in Panel 3. No text, numbers, labels, logos, trademarks, watermark, people, duplicate products within a panel, warped geometry, extra hinges, or impossible shadows.
+```
+
+## `night-garden-storyboard.png`
+
+```text
+Create one clean 3×3 contact sheet showing nine cumulative keyframes for an original night-garden workshop event-poster animation. The same centered circular stone table and deep-indigo greenhouse backdrop remain fixed in every panel.
+
+Read left to right, top to bottom: (1) empty table and backdrop; (2) a pale paper moon unfolds above the table; (3) one white ceramic planter rises into frame; (4) delicate botanical line-art vines grow around the edges; (5) a small amber glass lantern appears on the table; (6) exactly three paper moths enter and hover; (7) several unbranded kraft seed packets fan out beside the planter; (8) soft firefly particles form a loose circular halo; (9) the complete balanced composition with generous blank space for copy to be added later.
+
+Polished tactile paper-craft editorial illustration with realistic paper fibers and ceramic texture. Square 3×3 grid, nine equal panels, thin cream gutters, locked frontal camera, centered composition. Cool moonlight with one warm amber practical light. Indigo, moon white, botanical green, amber, and kraft brown. No text, numbers, letters, logos, signatures, watermarks, recognizable brands, copyrighted characters, duplicated panels, random objects, skewed grid, or changing camera. Keep the table, backdrop, scale, object identity, and progressive build consistent.
 ```

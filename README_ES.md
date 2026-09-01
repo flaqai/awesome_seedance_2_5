@@ -4,7 +4,7 @@
 
 ![Imagen original para la guía de prompts de Seedance 2.5](assets/seedance-2-5-prompt-guide-hero.png)
 
-Biblioteca original con **100 prompts para Seedance 2.5 y soporte para 15 idiomas**: 60 escenas generales y 40 flujos profesionales en inglés para producción, edición, ecommerce, educación, accesibilidad y entretenimiento.
+Biblioteca original con **120 prompts para Seedance 2.5 y soporte para 15 idiomas**: 60 escenas generales y 60 flujos profesionales en inglés para producción, edición, ecommerce, cine de género, vídeo social, animación original, experimentos visuales, educación y accesibilidad.
 
 Comparte un prompt original y probado mediante el [formulario de contribución](https://github.com/flaqai/awesome_seedance_2_5/issues/new?template=prompt.yml), incluyendo ajustes, entradas y el resultado real. Las propuestas aceptadas pueden publicarse con atribución después de su revisión.
 
@@ -41,7 +41,7 @@ Audio: lluvia, libro al cerrarse, un leve sonido de taza y plato, y ambiente tra
 
 ## Biblioteca completa
 
-El [índice maestro de 100 escenas](prompts/README.md) combina una [biblioteca base de 24 escenas](prompts/prompt-library.md), una [ampliación de 36 escenas](prompts/extended-scenarios.md), [12 flujos profesionales](prompts/advanced-workflows.en.md) y [28 técnicas creativas](prompts/creative-techniques.en.md). Incluye:
+El [índice maestro de 120 escenas](prompts/README.md) combina una [biblioteca base de 24 escenas](prompts/prompt-library.md), una [ampliación de 36 escenas](prompts/extended-scenarios.md), [12 flujos profesionales](prompts/advanced-workflows.en.md), [28 técnicas creativas](prompts/creative-techniques.en.md) y [20 experimentos de género y vídeo social](prompts/genre-social-experiments.en.md). Incluye:
 
 - drama cinematográfico y ciencia ficción;
 - anuncios de bebidas, cosmética y wearables;

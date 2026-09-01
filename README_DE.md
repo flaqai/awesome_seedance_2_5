@@ -2,14 +2,14 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [Alle 15 Sprachen](prompts/i18n/README.md)
 
-Dieses Repository enthält **100 neu erstellte Seedance-2.5-Videorezepte** und unterstützt **15 Sprachen**: 60 allgemeine Szenen und 40 professionelle Workflows auf Englisch.
+Dieses Repository enthält **120 neu erstellte Seedance-2.5-Videorezepte** und unterstützt **15 Sprachen**: 60 allgemeine Szenen und 60 englische Workflows, darunter Genre-Filme, Social Video, Originalanimation und visuelle Experimente.
 
 Ein eigener getesteter Prompt kann über das [Beitragsformular](https://github.com/flaqai/awesome_seedance_2_5/issues/new?template=prompt.yml) mit Einstellungen, Eingaben und echtem Ergebnis eingereicht werden. Angenommene Beiträge können nach Prüfung mit Namensnennung veröffentlicht werden.
 
 ## Schnellstart
 
 - Nutze die [6 vollständigen deutschen Prompts](prompts/i18n/prompt-library.de.md).
-- Finde ein passendes Beispiel im [Index mit 100 Szenen](prompts/README.md).
+- Finde ein passendes Beispiel im [Index mit 120 Szenen](prompts/README.md), einschließlich [20 Genre-, Social- und Experiment-Prompts](prompts/genre-social-experiments.en.md).
 - Verbessere Timing, Kamera, Ton und Kontinuität mit dem [Prompting Guide](docs/prompting-guide.md).
 - Wähle auf Flaq AI zwischen [Text-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/) und [Image-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/).
 

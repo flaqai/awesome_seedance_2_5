@@ -1,6 +1,6 @@
 # Seedance 2.5 Use-Case and Prompt Finder
 
-[Home](../README.md) · [100 prompt recipes](../prompts/README.md) · [Prompting guide](prompting-guide.md) · [Flaq AI workflow](flaq-ai-api-guide.md)
+[Home](../README.md) · [120 prompt recipes](../prompts/README.md) · [Prompting guide](prompting-guide.md) · [Flaq AI workflow](flaq-ai-api-guide.md)
 
 Choose a business goal first, then narrow the prompt by available assets, delivery format, and first-pass quality checks.
 
@@ -12,19 +12,20 @@ Choose a business goal first, then narrow the prompt by available assets, delive
 | Ecommerce conversion | 04 sparkling tea, 28 folding bottle, 30 product rotation | Image-to-video | Product geometry, labels, feature action |
 | Product education | 06 wearable, 29 cushion cutaway, 37 focus timer | Image-to-video | Correct steps, stable structure, accurate UI |
 | Vertical UGC | 07 commuter bag, 08 travel diary, 09 restaurant review | Portrait reference | Speech, handheld feel, credible reactions |
-| Fashion and beauty | 31 raincoat, 32 scarf styling, 33 lipstick material | Person + product | Identity, cloth physics, skin tone, item structure |
-| Cinematic storytelling | 01 rescue, 02 reunion, 03 weather station | Text- or image-to-video | Timeline, blocking, spatial continuity |
-| Animation prototype | 10 paper fox, 11 clay robot, 36 fabric creature | Image-to-video | Silhouette, material, limb count |
+| Fashion and beauty | 31 raincoat, 32 scarf styling, 33 lipstick material, 114 capsule wardrobe | Person + product | Identity, cloth physics, skin tone, item structure |
+| Cinematic storytelling | 01 rescue, 02 reunion, 03 weather station, 101–105 genre shorts | Text- or image-to-video | Timeline, blocking, spatial continuity |
+| Animation prototype | 10 paper fox, 11 clay robot, 36 fabric creature, 117–118 original animation | Image- or text-to-video | Silhouette, material, limb count |
 | Sports and movement | 13 climbing, 14 tennis, 15 dance | Text + action reference | Plausible physics, action order, safety |
-| Music and ASMR | 16 jazz, 17 bakery, 18 radio | Audio-visual | Action sync and layer balance |
-| Social creative | 40 lemon transition, 41 office-chair comedy, 42 sock detective | Text / multi-scene | Rhythm, prop continuity, clear payoff |
-| Education and training | 43 wetland, 44 drill press, 45 micro-world | Diagram / person reference | Factual accuracy, disclaimer, readable labels |
+| Music and ASMR | 16 jazz, 17 bakery, 18 radio, 110 percussion sync | Audio-visual | Action sync and layer balance |
+| Social creative | 40 lemon transition, 41 office-chair comedy, 42 sock detective, 111–113 social shorts | Text / multi-scene | Rhythm, prop continuity, clear payoff |
+| Education and training | 43 wetland, 44 drill press, 45 micro-world, 104 and 106–109 science studies | Diagram / person reference | Factual accuracy, disclaimer, readable labels |
 | Real estate and architecture | 20 parallax, 46 apartment, 48 courtyard | Image-to-video | Honest scale, geometry, doors and furniture |
 | Accessibility prototype | 38 route app, 47 café circulation, 57 exit reminder | UI / white model | Viable path, inclusive framing, no invented compliance claim |
 | Mobility and robotics | 49 cargo bike, 50 sleeper train, 51 delivery robot | Product + action | Structure, road safety, motion physics |
 | Nature and pets | 52 senior dog, 53 moth, 54 tomato growth | Image / multi-day reference | Species or identity, welfare, time continuity |
 | Industry and logistics | 55 radio assembly, 56 cold parcel | Multi-step reference | Part count, process order, safe operation |
 | Hospitality and events | 23 lobby previs, 58 cabin, 59 booth, 60 silent disco | White model / location | Honest space, no invented amenities, circulation |
+| Posters and visual experiments | 115 dynamic poster, 120 material morph | Storyboard / multi-image | Keyframe order, silhouette, material separation, clean copy space |
 
 ## Advanced English workflow shortcuts
 
@@ -40,6 +41,8 @@ Choose a business goal first, then narrow the prompt by available assets, delive
 ## Choose by available input
 
 For match cuts, multi-reference tutorials, local edits, batch SKU generation, digital presenters, long-form chaining, video extension, region edits, and white-model rendering, browse [Creative Techniques 73–100](../prompts/creative-techniques.en.md).
+
+For controlled genre filmmaking, social comedy, audio synchronization, dynamic posters, original animation, and material morphing, browse [Genre, Social & Visual Experiments 101–120](../prompts/genre-social-experiments.en.md).
 
 | What you have | Start with | Prompt strategy |
 |---|---|---|

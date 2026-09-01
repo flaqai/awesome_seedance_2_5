@@ -1,6 +1,6 @@
 # Flaq AI + Seedance 2.5: Model and API Workflow Guide
 
-[Home](../README.md) · [100 prompt recipes](../prompts/README.md) · [Advanced prompting guide](prompting-guide.md) · [15-language directory](../prompts/i18n/README.md)
+[Home](../README.md) · [120 prompt recipes](../prompts/README.md) · [Advanced prompting guide](prompting-guide.md) · [15-language directory](../prompts/i18n/README.md)
 
 Flaq AI provides model pages that connect prompt experimentation with an API-oriented production workflow. For Seedance 2.5, choose the model by the asset you already have—not by which page sounds more advanced.
 
@@ -108,7 +108,7 @@ Refunds, chargebacks, attribution, review, and policy rules can affect eligibili
 
 - [Seedance 2.5 Text-to-Video on Flaq AI](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/)
 - [Seedance 2.5 Image-to-Video on Flaq AI](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
-- [100-prompt finder](../prompts/README.md)
+- [120-prompt finder](../prompts/README.md)
 - [Prompt engineering and troubleshooting](prompting-guide.md)
 - [Originality and asset notes](../assets/IMAGE_PROMPTS.md)
 - [Flaq AI Affiliate Program](https://flaq.ai/affiliate-program/)

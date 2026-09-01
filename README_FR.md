@@ -2,14 +2,14 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [Les 15 langues](prompts/i18n/README.md)
 
-Ce dépôt réunit **100 recettes vidéo originales pour Seedance 2.5** et prend en charge **15 langues** : 60 scènes générales et 40 workflows professionnels en anglais.
+Ce dépôt réunit **120 recettes vidéo originales pour Seedance 2.5** et prend en charge **15 langues** : 60 scènes générales et 60 workflows en anglais, dont des films de genre, vidéos sociales, animations originales et expériences visuelles.
 
 Partagez un prompt original et testé via le [formulaire de contribution](https://github.com/flaqai/awesome_seedance_2_5/issues/new?template=prompt.yml), avec les réglages, les entrées et le résultat réel. Les propositions retenues peuvent être publiées avec attribution après vérification.
 
 ## Commencer rapidement
 
 - Copiez les [6 prompts complets en français](prompts/i18n/prompt-library.fr.md).
-- Parcourez l'[index des 100 scènes](prompts/README.md).
+- Parcourez l'[index des 120 scènes](prompts/README.md), y compris [20 scénarios de genre, sociaux et expérimentaux](prompts/genre-social-experiments.en.md).
 - Consultez le [guide avancé de prompting](docs/prompting-guide.md) pour le cadrage, le mouvement, le son et la continuité.
 - Choisissez entre [Text-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/) et [Image-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/) sur Flaq AI.
 

@@ -1,8 +1,8 @@
-# Seedance 2.5 Prompt Library Index：100 个场景与多语言版本
+# Seedance 2.5 Prompt Library Index：120 个场景与多语言版本
 
 [English Guide](../README.md) · [中文指南](../README_ZH.md) · [在线使用 Seedance 2.5](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/) · [多语言目录](i18n/README.md)
 
-本目录提供 **100 个原创 Seedance 2.5 完整提示词**、独立语言文件和本地化规范。其中 60 个中文基础与扩展场景覆盖通用创作，40 个英文工作流进一步覆盖多参考绑定、节拍剪辑、教程、视频编辑、数字人、批量 SKU、长视频衔接、延长与白模预演。
+本目录提供 **120 个原创 Seedance 2.5 完整提示词**、独立语言文件和本地化规范。其中 60 个中文基础与扩展场景覆盖通用创作，60 个英文工作流进一步覆盖多参考绑定、节拍剪辑、教程、视频编辑、数字人、批量 SKU、长视频衔接、类型片、社媒叙事、视觉实验、延长与白模预演。
 
 ## 内容文件
 
@@ -12,10 +12,11 @@
 | [扩展场景库](extended-scenarios.md) | 36 | 品牌、电商、时尚、VFX、UI、喜剧、教育、建筑、交通、自然、工业、酒店 |
 | [英文专业工作流](advanced-workflows.en.md) | 12 | SaaS、创作者课程、家具、珠宝、餐饮、博物馆、能源、医疗入口、播客、物流、无障碍、游戏 |
 | [英文创作技法库](creative-techniques.en.md) | 28 | Match Cut、一镜到底、多参考、教程、局部编辑、批量生产、长视频、延长、白模 |
+| [英文类型、社媒与视觉实验](genre-social-experiments.en.md) | 20 | 类型片、受控车辆镜头、科学重建、社媒喜剧、换装、动态海报、动画、材质变形 |
 | [多语言 prompts](i18n/README.md) | 15 种语言 | 14 份独立外语文件，可直接复制 |
 | [多语言单场景对照](multilingual-pack.md) | 8 种语言 | 用同一场景对比不同语言的表达结构 |
 
-## 100 个提示词快速索引
+## 120 个提示词快速索引
 
 ### 电影、产品与创作者内容
 
@@ -137,13 +138,38 @@
 | 99 | White-model café to final materials | White-model previs | [Creative techniques](creative-techniques.en.md#99-white-model-café-blocking-to-final-materials) |
 | 100 | Product campaign storyboard | Storyboard / Multi-image | [Creative techniques](creative-techniques.en.md#100-reference-board-product-campaign-storyboard) |
 
+### 类型片、社媒内容与视觉实验
+
+| ID | Scene | Category | File |
+|---:|---|---|---|
+| 101 | Closed-course rain strategy film | Cinematic / Motorsport | [Genre & social](genre-social-experiments.en.md#101-closed-course-rain-strategy-film) |
+| 102 | Desert solar observatory drill | Science drama | [Genre & social](genre-social-experiments.en.md#102-desert-solar-observatory-signal-drill) |
+| 103 | Rainy analog listening booth | Analog short | [Genre & social](genre-social-experiments.en.md#103-rainy-listening-booth-analog-memory) |
+| 104 | Orbital debris-avoidance study | Space / Education | [Genre & social](genre-social-experiments.en.md#104-orbital-repair-debris-avoidance-study) |
+| 105 | Floating orchard courier | Fantasy | [Genre & social](genre-social-experiments.en.md#105-floating-orchard-courier-glide) |
+| 106 | Wet-road brake demonstration | Vehicle / Training | [Genre & social](genre-social-experiments.en.md#106-controlled-wet-road-brake-demonstration) |
+| 107 | Prehistoric herbivore migration | Natural history | [Genre & social](genre-social-experiments.en.md#107-prehistoric-herbivore-migration-documentary) |
+| 108 | Ancient waterworks discovery | Archaeology | [Genre & social](genre-social-experiments.en.md#108-ancient-waterworks-discovery-documentary) |
+| 109 | Mars sample collection | Space science | [Genre & social](genre-social-experiments.en.md#109-mars-sample-collection-procedure) |
+| 110 | Percussion rehearsal light sync | Audio sync | [Genre & social](genre-social-experiments.en.md#110-percussion-led-rehearsal-light-sync) |
+| 111 | Mirror-delay micro-comedy | Social / Comedy | [Genre & social](genre-social-experiments.en.md#111-mirror-delay-morning-micro-comedy) |
+| 112 | Giant origami crane mockumentary | Viral / Surreal | [Genre & social](genre-social-experiments.en.md#112-giant-origami-crane-park-mockumentary) |
+| 113 | Bakery debate meme | Social dialogue | [Genre & social](genre-social-experiments.en.md#113-neighborhood-bakery-debate-meme) |
+| 114 | Accessible capsule wardrobe | Fashion / Multi-image | [Genre & social](genre-social-experiments.en.md#114-six-look-accessible-capsule-wardrobe-transition) |
+| 115 | Night garden dynamic poster | Storyboard / Poster | [Genre & social](genre-social-experiments.en.md#115-night-garden-dynamic-event-poster) |
+| 116 | Folding bicycle camera transfer | Product / Motion reference | [Genre & social](genre-social-experiments.en.md#116-camera-path-transfer-for-a-folding-bicycle-ad) |
+| 117 | Ember-and-frost staff duel | Original animation | [Genre & social](genre-social-experiments.en.md#117-ember-and-frost-staff-duel) |
+| 118 | Tiny moss mecha repair | Original character | [Genre & social](genre-social-experiments.en.md#118-tiny-moss-mecha-garden-repair) |
+| 119 | Co-working conflict resolution | Vertical drama | [Genre & social](genre-social-experiments.en.md#119-vertical-co-working-conflict-resolution-short) |
+| 120 | Four-material fluid morph | Visual experiment | [Genre & social](genre-social-experiments.en.md#120-four-material-fluid-morph-study) |
+
 ## 多语言覆盖
 
-每个语言文件包含 6 个完整、可复制的代表性 prompts，而不是只翻译标题。中文基础与扩展库提供 60 个场景，英文专业与创作技法库另提供 40 个场景。
+每个语言文件包含 6 个完整、可复制的代表性 prompts，而不是只翻译标题。中文基础与扩展库提供 60 个场景，英文专业、创作技法、类型片与社媒实验库另提供 60 个场景。
 
 | 语言 | 文件 | 本地名称 |
 |---|---|---|
-| 简体中文 | [100 个场景总索引](README.md) | 简体中文 |
+| 简体中文 | [120 个场景总索引](README.md) | 简体中文 |
 | 繁體中文 | [prompt-library.zh-TW.md](i18n/prompt-library.zh-TW.md) | 繁體中文 |
 | English | [prompt-library.en.md](i18n/prompt-library.en.md) | English |
 | 日本語 | [prompt-library.ja.md](i18n/prompt-library.ja.md) | 日本語 |

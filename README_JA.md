@@ -4,7 +4,7 @@
 
 ![Seedance 2.5 プロンプトガイドのオリジナル画像](assets/seedance-2-5-prompt-guide-hero.png)
 
-このリポジトリは、**100本のSeedance 2.5実践プロンプトと15言語のサポート**を収録しています。60本の基本・追加シーンと、編集、チュートリアル、複数参照、長尺、EC、教育、アクセシビリティ向けの英語ワークフロー40本で構成されています。
+このリポジトリは、**120本のSeedance 2.5実践プロンプトと15言語のサポート**を収録しています。60本の基本・追加シーンと、編集、チュートリアル、複数参照、長尺、ジャンル映像、ソーシャル動画、オリジナルアニメーション、視覚実験向けの英語ワークフロー60本で構成されています。
 
 テスト済みのオリジナルPromptは、出力結果と設定を添えて[投稿フォーム](https://github.com/flaqai/awesome_seedance_2_5/issues/new?template=prompt.yml)から共有できます。採用された内容は、確認・編集後に投稿者名付きで収録される場合があります。
 
@@ -40,7 +40,7 @@
 
 ## 収録内容
 
-[100シーン総合索引](prompts/README.md)は、[基本24本](prompts/prompt-library.md)、[追加36本](prompts/extended-scenarios.md)、[英語プロワークフロー12本](prompts/advanced-workflows.en.md)、[英語クリエイティブ技法28本](prompts/creative-techniques.en.md)で構成されています。
+[120シーン総合索引](prompts/README.md)は、[基本24本](prompts/prompt-library.md)、[追加36本](prompts/extended-scenarios.md)、[英語プロワークフロー12本](prompts/advanced-workflows.en.md)、[英語クリエイティブ技法28本](prompts/creative-techniques.en.md)、[ジャンル・ソーシャル・視覚実験20本](prompts/genre-social-experiments.en.md)で構成されています。
 
 - 映画ドラマ、救助訓練、近未来SF;
 - 飲料、スキンケア、ウェアラブルの商品広告;

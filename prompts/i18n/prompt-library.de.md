@@ -1,6 +1,6 @@
 # Seedance 2.5 Prompts — Deutsch
 
-[Alle Sprachen](README.md) · [Index mit 100 Szenen](../README.md) · [Online verwenden](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+[Alle Sprachen](README.md) · [Index mit 120 Szenen](../README.md) · [Online verwenden](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
 
 ## I18N-01 Markenfreier Sprudeltee-Spot
 
