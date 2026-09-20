@@ -1,6 +1,17 @@
 # Original Image Prompt Notes
 
-These six visual assets were newly generated for this repository. They are designed as attractive README illustrations and as practical references for image-to-video tests. No source image from another prompt collection was used.
+These seven visual assets were newly generated for this repository. They are designed as README illustrations and practical image-to-video references. The API banner is promotional artwork, not a generated-video result. No source image from another prompt collection was used.
+
+## `flaq-seedance-api-banner.png`
+
+Generated with the built-in ImageGen tool on 2026-09-20. The person is fictional. This is original campaign artwork, not a Flaq interface screenshot or a Seedance API output.
+
+```text
+Use case: ads-marketing
+Asset type: premium wide README banner promoting Flaq AI Seedance 2.5 API
+Create an original polished 16:9 editorial campaign graphic, dark midnight-indigo background with restrained electric violet and warm coral accents. Left 45 percent has clean, beautifully typeset large English heading "Seedance 2.5 API", smaller brand text "flaq.ai", and subheading "Your ideas. Your people. Your pace." Below show two small readable benefit pills: "Pay as you go" and "No subscription required".
+Right side shows a sophisticated cinematic composition of three overlapping rounded visual panels: a natural photographic portrait of an original fictional adult woman with short dark hair and an olive jacket in soft daylight, a second video-like frame showing the same woman smiling in the same jacket at a café with a subtle triangular play symbol, and a small beautifully lit unbranded amber beverage bottle on pale stone. Fine violet light paths connect the portrait input to the video output, evoking a production API workflow. Maintain same face and jacket between portrait and video frame. Add a small bottom label "Portraits • Products • Stories". Generous margins, immaculate hierarchy, premium human-centered creative-tool advertising, tactile photographic realism and refined graphic layout. Not a screenshot of a real interface. No fake pricing, fabricated performance numbers, official certification, copied logos, celebrity likenesses, dense code, extra text or watermark. Render all requested text legibly and exactly.
+```
 
 ## `seedance-2-5-prompt-guide-hero.png`
 

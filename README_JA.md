@@ -12,6 +12,14 @@
 >
 > 設定、料金、入力条件、API仕様は変更される場合があります。最新情報はFlaq AIの各ページで確認してください。
 
+## サブスクリプション不要の Seedance 2.5 API
+
+[![サブスクリプション不要の Seedance 2.5 API](assets/flaq-seedance-api-banner.png)](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+
+月額契約なしで、必要なときにクレジットを追加して従量課金で利用できます。本人または許可を得た実在人物の写真から、クリエイター紹介やファッション動画を作成できます。利用のハードルを抑え、ブラウザーでの試作から API 連携へ進められます。サービスのコンテンツ規則は適用されます。画像は宣伝用のイラストです。
+
+[Text-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/) · [Image-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/) · [API ガイド](docs/flaq-ai-api-guide.md#api-quick-start)
+
 ## Seedance 2.5 向けの基本構造
 
 公式ページでは、1回で最大30秒の生成、2回の延長、参照動画の意図・構図・映画表現の理解、幅広い音声・映像編集、プロ向けのカメラワーク、演技ブロッキング、ホワイトモデル制御、グリーンバック編集が紹介されています。プロンプトは、形容詞の列ではなく短い演出設計として書くのが効果的です。

@@ -19,6 +19,8 @@ If you are contributing several prompts, a new language pack, documentation, or 
 
 ## What makes a useful contribution
 
+To suggest a public example for the X video showcase, open an issue with the original status URL, attached video, explicit model-version evidence, and the exact location of the complete prompt. Keep the posting account credited and distinguish a source prompt from an editorial adaptation. Linking third-party media does not transfer its license; see the [showcase source notes](docs/x-showcase-sources.md).
+
 - a complete prompt for a distinct business, creative, education, accessibility, or production scenario;
 - a carefully localized version of an existing shared prompt;
 - a clearer workflow, troubleshooting note, quality check, or rights safeguard;

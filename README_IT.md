@@ -6,6 +6,14 @@ Questo repository raccoglie **120 ricette video originali per Seedance 2.5** e s
 
 Condividi un prompt originale e testato tramite il [modulo di contribuzione](https://github.com/flaqai/awesome_seedance_2_5/issues/new?template=prompt.yml), includendo impostazioni, input e risultato reale. I contributi approvati possono essere pubblicati con attribuzione dopo la revisione.
 
+## API Seedance 2.5 senza abbonamento
+
+[![API Seedance 2.5 senza abbonamento](assets/flaq-seedance-api-banner.png)](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+
+Ricarica i crediti quando servono e paga in base all’utilizzo, senza abbonamento obbligatorio. Usa foto tue o ritratti autorizzati di persone reali per presentazioni, moda e contenuti di marca. Meno ostacoli di accesso, dalle prove nel browser all’integrazione API. Restano valide le regole del servizio. L’immagine è un’illustrazione promozionale.
+
+[Text-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/) · [Image-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/) · [Guida API](docs/flaq-ai-api-guide.md#api-quick-start)
+
 ## Inizia subito
 
 - Copia i [6 prompt completi in italiano](prompts/i18n/prompt-library.it.md).

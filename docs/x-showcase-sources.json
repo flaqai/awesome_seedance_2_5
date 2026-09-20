@@ -1,0 +1,343 @@
+{
+  "checked_on": "2026-09-20",
+  "retrieval": "Public X post metadata retrieved through api.fxtwitter.com; direct x.com page access returned 403 during research.",
+  "verification": "Twelve post bodies explicitly name Seedance 2.5 and contain a prompt. All listed MP4 and thumbnail URLs returned HTTP 200 with matching media content types. No model execution or end-to-end playback test was performed.",
+  "entries": [
+    {
+      "id": "x01-galley-food-comedy",
+      "post_id": "2099186117769822462",
+      "posted_by": "Goodmanprotocol",
+      "post_date": "2026-09-13",
+      "original_post": "https://x.com/Goodmanprotocol/status/2099186117769822462",
+      "full_prompt_url": "https://x.com/Goodmanprotocol/status/2099186117769822462",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2099186062715404288/vid/avc1/1920x1080/H8uxwKxVsSU09_LW.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2099186062715404288/img/D-iYamhA_iFRBooM.jpg",
+      "published_media": {
+        "width": 1920,
+        "height": 1080,
+        "duration_seconds": 30.08
+      },
+      "format_note": "30 seconds; published media 1920×1080.",
+      "readme_anchor": "x01-galley-food-comedy",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x02-one-garment-fashion",
+      "post_id": "2095216981624721691",
+      "posted_by": "Goodmanprotocol",
+      "post_date": "2026-09-02",
+      "original_post": "https://x.com/Goodmanprotocol/status/2095216981624721691",
+      "full_prompt_url": "https://x.com/Goodmanprotocol/status/2095216981624721691",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2095216899445649408/vid/avc1/1920x1080/LZt4YKiTkMag5Db1.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2095216899445649408/img/690ykZJzst5uQLwH.jpg",
+      "published_media": {
+        "width": 1920,
+        "height": 1080,
+        "duration_seconds": 30.08
+      },
+      "format_note": "30 seconds; source requests 16:9; published media 1920×1080.",
+      "readme_anchor": "x02-one-garment-fashion",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x03-rainy-pet-selfie",
+      "post_id": "2098256490238755226",
+      "posted_by": "Strength04_X",
+      "post_date": "2026-09-11",
+      "original_post": "https://x.com/Strength04_X/status/2098256490238755226",
+      "full_prompt_url": "https://x.com/Strength04_X/status/2098256490238755226",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2098256097547309056/vid/avc1/1920x1080/mPxvxfjQ4VcrZg5r.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2098256097547309056/img/QKhG3cYjfcBbxiuc.jpg",
+      "published_media": {
+        "width": 1920,
+        "height": 1080,
+        "duration_seconds": 30.08
+      },
+      "format_note": "30 seconds; source requests 9:16, but published media is 1920×1080.",
+      "readme_anchor": "x03-rainy-pet-selfie",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x04-live-action-doodle",
+      "post_id": "2095748874942263601",
+      "posted_by": "Strength04_X",
+      "post_date": "2026-09-04",
+      "original_post": "https://x.com/Strength04_X/status/2095748874942263601",
+      "full_prompt_url": "https://x.com/Strength04_X/status/2095748874942263601",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2095748601087688705/vid/avc1/1280x720/vqE5gA1Hrf63bAyB.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2095748601087688705/img/0d5gq8yGWQZdSVch.jpg",
+      "published_media": {
+        "width": 1280,
+        "height": 720,
+        "duration_seconds": 15.104
+      },
+      "format_note": "15 seconds; source requests 9:16, but published media is 1280×720.",
+      "readme_anchor": "x04-live-action-doodle",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x05-minidv-everyday",
+      "post_id": "2090287853532266748",
+      "posted_by": "john_my07",
+      "post_date": "2026-08-20",
+      "original_post": "https://x.com/john_my07/status/2090287853532266748",
+      "full_prompt_url": "https://x.com/john_my07/status/2090287853532266748",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2090287723961847808/vid/avc1/1920x1080/sNtaxz9M_3wvzoTP.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2090287723961847808/img/z8kZQAvTTG7cWPHN.jpg",
+      "published_media": {
+        "width": 1920,
+        "height": 1080,
+        "duration_seconds": 30.145
+      },
+      "format_note": "30 seconds; source requests 1080p; published media 1920×1080.",
+      "readme_anchor": "x05-minidv-everyday",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x06-two-person-vlog",
+      "post_id": "2097968347430482177",
+      "posted_by": "Strength04_X",
+      "post_date": "2026-09-10",
+      "original_post": "https://x.com/Strength04_X/status/2097968347430482177",
+      "full_prompt_url": "https://x.com/Strength04_X/status/2097968347430482177",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2097967562604875776/vid/avc1/1920x1080/EB48uw1_u7MU2RJl.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2097967562604875776/img/uK9lzSMYEeRFhAvI.jpg",
+      "published_media": {
+        "width": 1920,
+        "height": 1080,
+        "duration_seconds": 30.066
+      },
+      "format_note": "30 seconds; source requests 4:3 and 720p, but published media is 1920×1080.",
+      "readme_anchor": "x06-two-person-vlog",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x07-talent-show-reversal",
+      "post_id": "2090399966988550435",
+      "posted_by": "Strength04_X",
+      "post_date": "2026-08-20",
+      "original_post": "https://x.com/Strength04_X/status/2090399966988550435",
+      "full_prompt_url": "https://x.com/Strength04_X/status/2090399966988550435",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2090399674129940480/vid/avc1/854x480/8-BwGw71f6WF0sF4.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2090399674129940480/img/zvDQqERbmMVkeaIT.jpg",
+      "published_media": {
+        "width": 854,
+        "height": 480,
+        "duration_seconds": 30.08
+      },
+      "format_note": "30-second source brief; uploaded video 854×480, about 30.08 seconds. The post credits @techhalla for the prompt idea.",
+      "readme_anchor": "x07-talent-show-reversal",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x08-pressed-flower-tutorial",
+      "post_id": "2084269139556761919",
+      "posted_by": "Strength04_X",
+      "post_date": "2026-08-03",
+      "original_post": "https://x.com/Strength04_X/status/2084269139556761919",
+      "full_prompt_url": "https://x.com/Strength04_X/status/2084269139556761919",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2084268630556983296/vid/avc1/1920x1080/kPWIx5WQsdO1yzGR.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2084268630556983296/img/OXmdFhcGjZVL1k5f.jpg",
+      "published_media": {
+        "width": 1920,
+        "height": 1080,
+        "duration_seconds": 31.333
+      },
+      "format_note": "Source storyboard totals 32 seconds; uploaded video is about 31.33 seconds at 1920×1080.",
+      "readme_anchor": "x08-pressed-flower-tutorial",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x09-energy-action-geography",
+      "post_id": "2096147092188311749",
+      "posted_by": "Strength04_X",
+      "post_date": "2026-09-05",
+      "original_post": "https://x.com/Strength04_X/status/2096147092188311749",
+      "full_prompt_url": "https://x.com/Strength04_X/status/2096147092188311749",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2096146403064254464/vid/avc1/1280x720/MZwL0tlYUawV8djb.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2096146403064254464/img/IsPJq2tLkew3sJuO.jpg",
+      "published_media": {
+        "width": 1280,
+        "height": 720,
+        "duration_seconds": 30.166
+      },
+      "format_note": "30-second source brief; uploaded video 1280×720, about 30.17 seconds. Source wording asks for a 4K aesthetic; this is not evidence of native 4K output.",
+      "readme_anchor": "x09-energy-action-geography",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x10-day-trip-story-arc",
+      "post_id": "2087165084397420849",
+      "posted_by": "Goodmanprotocol",
+      "post_date": "2026-08-11",
+      "original_post": "https://x.com/Goodmanprotocol/status/2087165084397420849",
+      "full_prompt_url": "https://x.com/Goodmanprotocol/status/2087165084397420849",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2087164966864556033/vid/avc1/1280x720/CxZZE_2r3pzjndH-.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2087164966864556033/img/MY7hA0RJIHNj81nD.jpg",
+      "published_media": {
+        "width": 1280,
+        "height": 720,
+        "duration_seconds": 30.08
+      },
+      "format_note": "30-second source brief; uploaded video 1280×720, about 30.08 seconds.",
+      "readme_anchor": "x10-day-trip-story-arc",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x11-visible-object-handover",
+      "post_id": "2096424933366931946",
+      "posted_by": "AIwithkhan",
+      "post_date": "2026-09-06",
+      "original_post": "https://x.com/AIwithkhan/status/2096424933366931946",
+      "full_prompt_url": "https://x.com/AIwithkhan/status/2096424933366931946",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2096424851888300032/vid/avc1/1280x720/LYNMJekyiU57XaaC.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2096424851888300032/img/GsfbwnQVERijOEJp.jpg",
+      "published_media": {
+        "width": 1280,
+        "height": 720,
+        "duration_seconds": 30.041
+      },
+      "format_note": "30-second source brief; uploaded video 1280×720, about 30.04 seconds.",
+      "readme_anchor": "x11-visible-object-handover",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x12-tropical-location-sound",
+      "post_id": "2089204108175741157",
+      "posted_by": "RishuaVR",
+      "post_date": "2026-08-17",
+      "original_post": "https://x.com/RishuaVR/status/2089204108175741157",
+      "full_prompt_url": "https://x.com/RishuaVR/status/2089204108175741157",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2089204070997532672/vid/avc1/1280x720/tqcN58TfdD156uJn.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2089204070997532672/img/UAx5Q6w1RA3C8pNG.jpg",
+      "published_media": {
+        "width": 1280,
+        "height": 720,
+        "duration_seconds": 10.08
+      },
+      "format_note": "10-second source brief; uploaded video 1280×720, about 10.08 seconds.",
+      "readme_anchor": "x12-tropical-location-sound",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    }
+  ]
+}

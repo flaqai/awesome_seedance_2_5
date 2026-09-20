@@ -4,7 +4,47 @@
 
 Flaq AI provides model pages that connect prompt experimentation with an API-oriented production workflow. For Seedance 2.5, choose the model by the asset you already have—not by which page sounds more advanced.
 
-> Treat the live Flaq AI model pages as the source of truth for limits, input fields, output behavior, pricing, and API schemas. This guide avoids hard-coding endpoints or request bodies that may change.
+[![Flaq AI Seedance 2.5 API — pay as you go, no subscription required](../assets/flaq-seedance-api-banner.png)](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+
+## Real people, flexible access, usage-based billing
+
+**No subscription required.** Add credits when needed and pay for generation usage. Flaq's [billing page](https://flaq.ai/pricing/) offers balance top-ups; its model pages list per-second pricing by resolution. Check the selected tier before submitting a request. This makes short experiments and occasional campaigns easier to budget without a recurring plan.
+
+**Bring real-person images.** Use your own or authorized portrait photos for image-to-video projects: a creator introduction, a fashion pose, a presenter cutaway, or a natural expression study. Specify face, hairstyle, clothing, and the allowed movement. Start with one person and a simple action to assess identity consistency.
+
+**Fewer workflow barriers.** Move between browser experiments and API integration, and choose clip length and quality for each job. This describes access and production flexibility, not a promise of unrestricted content or universal input acceptance. Service rules still apply.
+
+The banner is an original promotional illustration. It is not a Seedance output or a reproduction of the Flaq interface.
+
+## API quick start
+
+The public model-page examples checked on **2026-09-20** use a shared task endpoint. Set your API key in your own environment, then submit a text-to-video task:
+
+```bash
+curl --request POST 'https://api.flaq.ai/api/v1/video/task' \
+  --header "Authorization: Bearer $FLAQ_API_KEY" \
+  --header 'Content-Type: application/json' \
+  --data '{
+    "model_name": "seedance-v2.5-text-to-video",
+    "prompt": "A ceramic cup on a sunlit table. Slow camera push-in, rising steam, quiet room ambience. End on a still close-up.",
+    "resolution": "720p",
+    "duration": 8,
+    "aspect_ratio": "16:9",
+    "sound": true
+  }'
+```
+
+Read `data.task_id` from the response, then poll `GET https://api.flaq.ai/api/v1/video/{task_id}` with the same authorization header. The published example checks `data.task_status` for `succeed` or `failed` and reads `data.task_result.videos[0].url` on success. Use bounded polling and handle HTTP errors in your integration.
+
+For a portrait, use `model_name: "seedance-v2.5-image-to-video"`, add `image_url` pointing to your accessible first-frame image, and omit `aspect_ratio`. An optional `image_end_url` supplies the final frame. A starting motion prompt:
+
+```text
+Preserve the person in the supplied photograph: face, hair, clothing and proportions. During this eight-second shot, they turn slightly toward the lens, smile gently, then hold a relaxed expression. Use a steady medium close-up with soft daylight and subtle room ambience. Keep the background and lighting consistent.
+```
+
+These snippets follow the public [text-to-video](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/) and [image-to-video](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/) examples. No paid generation was run to validate them here.
+
+> Treat the live Flaq AI model pages as the source of truth for limits, input fields, output behavior, pricing, and API schemas. The dated quick start above may need updating when the service changes.
 
 ## Choose the right Seedance 2.5 workflow
 

@@ -12,6 +12,14 @@ Comparte un prompt original y probado mediante el [formulario de contribución](
 >
 > Los parámetros, precios, requisitos de entrada y esquemas API pueden cambiar. Consulta siempre las páginas de Flaq AI para conocer los detalles actuales.
 
+## Seedance 2.5 API sin suscripción
+
+[![Seedance 2.5 API sin suscripción](assets/flaq-seedance-api-banner.png)](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+
+Recarga créditos cuando los necesites y paga por uso, sin suscripción obligatoria. Admite fotos de personas reales: utiliza tu propia imagen o retratos autorizados para presentaciones, moda y contenido de marca. Menos barreras de acceso y un flujo desde el navegador hasta la API. Se aplican las reglas del servicio. La imagen es una ilustración promocional.
+
+[Text-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/) · [Image-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/) · [Guía de la API](docs/flaq-ai-api-guide.md#api-quick-start)
+
 ## Cómo escribir un buen prompt para Seedance 2.5
 
 La página oficial destaca vídeos de hasta 30 segundos en una generación, dos extensiones, una interpretación más precisa de los vídeos de referencia, edición audiovisual, cámara profesional, bloqueo de actores, control mediante modelos blancos y edición con fondo verde. Conviene escribir un pequeño brief de dirección, no una lista de adjetivos.

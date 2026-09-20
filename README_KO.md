@@ -6,6 +6,14 @@
 
 직접 테스트한 독창적인 Prompt는 설정, 입력 자료, 실제 결과와 함께 [기여 양식](https://github.com/flaqai/awesome_seedance_2_5/issues/new?template=prompt.yml)으로 공유할 수 있습니다. 승인된 내용은 검토 후 기여자 표시와 함께 수록될 수 있습니다.
 
+## 구독 없이 사용하는 Seedance 2.5 API
+
+[![구독 없이 사용하는 Seedance 2.5 API](assets/flaq-seedance-api-banner.png)](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+
+필요할 때 크레딧을 충전하고 사용량에 따라 결제하세요. 필수 구독 없이 본인 또는 허가받은 실제 인물 사진으로 크리에이터 소개, 패션 영상, 브랜드 콘텐츠를 만들 수 있습니다. 브라우저 테스트부터 API 연동까지 진입 장벽을 낮춘 워크플로입니다. 서비스 콘텐츠 규칙은 적용됩니다. 이미지는 홍보용 일러스트입니다.
+
+[Text-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/) · [Image-to-Video](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/) · [API 가이드](docs/flaq-ai-api-guide.md#api-quick-start)
+
 ## 빠른 시작
 
 - 바로 복사할 수 있는 [한국어 완성 프롬프트 6개](prompts/i18n/prompt-library.ko.md)를 사용하세요.

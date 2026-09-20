@@ -16,6 +16,12 @@
 | [浏览 120 个 Prompts](prompts/README.md) | [提交你的 Prompt](https://github.com/flaqai/awesome_seedance_2_5/issues/new?template=prompt.yml) | [贡献指南](CONTRIBUTING.md) | [Prompt 写作教程](docs/prompting-guide.md) | [在 Flaq AI 生成](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/) |
 |---|---|---|---|---|
 
+## X 社区视频案例：看成片、读原帖、改 Prompt
+
+新增 [12 个 Seedance 2.5 视频案例](README.md#seedance-25-videos-from-x--watch-inspect-remix)，涵盖美食动画、穿搭、宠物自拍、真人与二维动画混合、MiniDV 怀旧影像和双人 Vlog，并新增舞台反转、手工 ASMR、动作特效、旅行叙事、物件交接连续性和热带社区环境音。每例提供原视频封面、可打开的 MP4、X 原始链接、发布账号、原 Prompt 短摘录及完整原文入口，并附可复制的英文改写版。
+
+案例的 2.5 版本依据发布者声明；改写版尚未在本项目实测，也不是展示视频的原始生成指令。已于 2026-09-20 检查视频和封面链接，来源与画幅差异见[核查记录](docs/x-showcase-sources.md)。这 12 个社区案例与 120 个原创场景分开计数。
+
 ## 欢迎提交原创 Prompt
 
 如果你有经过真实生成验证、对其他创作者或开发者有复用价值的 Seedance 2.5 Prompt，可以通过[结构化提交表单](https://github.com/flaqai/awesome_seedance_2_5/issues/new?template=prompt.yml)分享。请提供完整 Prompt、模型与参数、素材职责、实际生成结果、迭代记录以及希望展示的作者名称；通过审核的内容可在整理后署名收录。
@@ -24,7 +30,18 @@
 
 ## 在 Flaq AI 使用 Seedance 2.5
 
-[Flaq AI](https://flaq.ai/) 提供模型发现、在线试用与面向 API 的生产工作流。根据手头素材选择入口：
+[![Flaq AI Seedance 2.5 API：支持真人素材，无需订阅，按量付费](assets/flaq-seedance-api-banner.png)](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/)
+
+**让创意、真人和产品走进视频。** [Flaq AI Seedance 2.5 API](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/) 支持真人照片创作，无需订阅，充值后按量付费，适合创作者、品牌团队和开发者按项目灵活使用。
+
+- **更少使用门槛：** 无需绑定月度订阅，有需求时充值生成，按自己的制作节奏安排预算。
+- **支持真人素材：** 使用本人或已获授权的人像照片，制作创作者介绍、穿搭展示、人物动态和品牌内容。
+- **按实际使用付费：** 根据时长与分辨率选择生成规格，先用短片验证动作，再投入正式版本。
+- **从在线体验到 API 接入：** 将验证过的 Prompt 接入应用、Agent 或批量视频制作流程。
+
+[文生视频 →](https://flaq.ai/models/bytedance/seedance-2-5-text-to-video/) · [真人／产品图生视频 →](https://flaq.ai/models/bytedance/seedance-2-5-image-to-video/) · [充值与计费 →](https://flaq.ai/pricing/) · [API 快速开始 →](docs/flaq-ai-api-guide.md#api-quick-start)
+
+这里的“更少限制”指订阅、计费与创作流程上的门槛更少，具体内容仍适用服务规则。配图为原创宣传插画，并非 API 实测输出。根据手头素材选择入口：
 
 | 起点 | 推荐模型 | 适合场景 |
 |---|---|---|
