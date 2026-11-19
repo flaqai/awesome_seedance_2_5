@@ -75,6 +75,25 @@ Do not copy the person, signage, or camera angle from Image 3.
 
 When references disagree, write the priority explicitly. Never expect the model to guess whether identity, clothing, composition, or style is more important.
 
+## Record the input role before diagnosing a framing failure
+
+When an output crops or reframes a subject, save the role assigned to each upload alongside the prompt. A sentence describing an image as a reference does not establish which input control the application actually used.
+
+A small review record can include:
+
+| Field | Record |
+| --- | --- |
+| Input | Source dimensions, crop and upload order |
+| Role | The selected first-frame or reference control, using the application's actual label |
+| Generation | Provider and model version, prompt, duration, output settings and seed when available |
+| Result | Actual output dimensions and the points in the clip inspected |
+| Failure | Which subject boundary disappeared, and when |
+| Limits | Settings that differed between outputs and any uninspected frames |
+
+Keep observation separate from explanation. Two outputs with different seeds or aspect ratios can show a framing difference, but cannot establish that the input role alone caused it. Inspect the complete clips before making a whole-clip claim. Use matched settings and repeated runs if the aim is a stronger comparison; this checklist is not evidence that those tests have been performed.
+
+An openly documented [first-frame/reference example](https://superseedance.si/en/blog/seedance-first-frame-vs-reference) illustrates how to report those limits: one Seedance 2.5 output per mode, different seeds and output dimensions, and sixteen sampled frames per output. It is an illustrative observation, not a controlled benchmark.
+
 ## Preserve identity, products, UI, and architecture
 
 ### People and characters
